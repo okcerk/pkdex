@@ -1,20 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Home } from "./pages/Home/Home";
-import {
-  Container,
-  Navbar,
-  Nav,
-  Form,
-  FormControl,
-  Button,
-} from "react-bootstrap";
+import { Container, Navbar, Nav, Form, FormControl } from "react-bootstrap";
 
 export const App = () => {
   return (
     <Router>
       <Container>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="dark" variant="dark">
           <Navbar.Brand href="/">Pokedex</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -28,7 +21,6 @@ export const App = () => {
                 placeholder="Search"
                 className="mr-sm-2"
               />
-              <Button variant="outline-success">Search</Button>
             </Form>
           </Navbar.Collapse>
         </Navbar>
