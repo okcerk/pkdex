@@ -10,14 +10,15 @@ export type PokemonCardProps = Readonly<{
 export const PokemonCard = (props: PokemonCardProps) => {
   const { model, spritesFolderUrl } = props;
   return (
-    <a style={{ cursor: "pointer" }}>
+    <a style={{ cursor: "pointer" }} href="\">
       <Card style={{ width: "10rem", margin: ".5rem" }}>
         <Card.Img
           variant="top"
-          src={`${process.env.PUBLIC_URL}${spritesFolderUrl}/${model.spriteUrl}`}
+          src={`${process.env.PUBLIC_URL}${spritesFolderUrl}${model.spriteUrl}`}
         />
         <Card.Body>
           <Card.Title>{model.name}</Card.Title>
+          <Card.Subtitle>{`#${model.pokedexNumber}`}</Card.Subtitle>
         </Card.Body>
       </Card>
     </a>
