@@ -7,14 +7,10 @@ export const Home = () => {
   const config = redBlue;
   const spritesFolderUrl = config.spritesFolderUrl;
   return (
-    <Container>
-      <Row>
-        {config.entries.map((model) => (
-          <Col xs={2}>
-            <PokemonCard model={model} spritesFolderUrl={spritesFolderUrl} />
-          </Col>
-        ))}
-      </Row>
-    </Container>
+    <Row className="d-flex align-items-center">
+      {config.entries.map((model) => (
+        <PokemonCard model={model} spritesFolderUrl={spritesFolderUrl} />
+      ))}
+    </Row>
   );
 };
