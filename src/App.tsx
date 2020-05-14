@@ -1,26 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Home } from "./pages/Home/Home";
+import {
+  Container,
+  Navbar,
+  Nav,
+  Form,
+  FormControl,
+  Button,
+} from "react-bootstrap";
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <Router>
+      <Container>
+        <Navbar bg="light" expand="lg">
+          <Navbar.Brand href="/">Pokedex</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/about">About</Nav.Link>
+            </Nav>
+            <Form inline>
+              <FormControl
+                type="text"
+                placeholder="Search"
+                className="mr-sm-2"
+              />
+              <Button variant="outline-success">Search</Button>
+            </Form>
+          </Navbar.Collapse>
+        </Navbar>
 
-export default App;
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Container>
+    </Router>
+  );
+};
+
+function About() {
+  return <h2>About</h2>;
+}
