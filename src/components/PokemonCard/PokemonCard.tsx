@@ -2,6 +2,12 @@ import React from "react";
 import { Card, Container } from "react-bootstrap";
 import { PokemonCardModel } from "../../pokedexConfigs/model";
 
+const styles = {
+  image: {
+    minHeight: "156px",
+  },
+};
+
 export type PokemonCardProps = Readonly<{
   model: PokemonCardModel;
   spritesFolderUrl: string;
@@ -19,6 +25,7 @@ export const PokemonCard = (props: PokemonCardProps) => {
           variant="top"
           src={`${process.env.PUBLIC_URL}${spritesFolderUrl}${model.spriteUrl}`}
           className="px-3 py-3"
+          style={styles.image}
         />
         <Card.Body>
           <Card.Title>{model.name}</Card.Title>
