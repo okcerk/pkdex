@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Home } from "./pages/Home/Home";
+import { PokedexMain } from "./pages/PokedexMain/PokedexMain";
 import { Container, Navbar, Nav, Form, FormControl } from "react-bootstrap";
 import {
   initialSearchState,
@@ -9,12 +9,26 @@ import {
   searchReducer,
   SearchActionType,
 } from "./searchContext";
+import {
+  PokedexConfigMapper,
+  DefaultPokedexConfig,
+} from "./pokedexConfigs/configMapper";
+import { PokedexProps } from "./helpers/routeHelper";
 
 export const App = () => {
   const [searchState, searchDispatch] = React.useReducer(
     searchReducer,
     initialSearchState
   );
+
+  const getPokedexComponent = ({ match }: PokedexProps) => {
+    const configName = match.params.configName.toLocaleLowerCase();
+    return (
+      <PokedexMain
+        config={PokedexConfigMapper[configName] ?? DefaultPokedexConfig}
+      />
+    );
+  };
 
   return (
     <Router>
@@ -51,8 +65,9 @@ export const App = () => {
               <Route path="/about">
                 <About />
               </Route>
+              <Route path="/pokedex/:configName" render={getPokedexComponent} />
               <Route path="/">
-                <Home />
+                <PokedexMain config={DefaultPokedexConfig} />
               </Route>
             </Switch>
           </Container>

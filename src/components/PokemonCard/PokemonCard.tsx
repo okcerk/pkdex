@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Container } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import { PokemonCardModel } from "../../pokedexConfigs/model";
 
 const styles = {
