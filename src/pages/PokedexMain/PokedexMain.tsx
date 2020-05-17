@@ -31,7 +31,7 @@ export const PokedexMain = (props: PokedexMainProps) => {
         ) {
           return (
             <a
-              className="text-secondary"
+              className="mx-4 my-4"
               style={{ cursor: "pointer" }}
               href={`${location.origin}/pokedex/${config.configName}/${pokemonKey}`}
             >

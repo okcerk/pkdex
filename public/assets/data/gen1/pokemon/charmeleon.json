@@ -1,0 +1,104 @@
+{
+  "name": "Charmeleon",
+  "pokedexNumber": 5,
+  "type1": "fire",
+  "evolution": [
+    {
+      "basePokemonName": "charmander",
+      "evolution1": {
+        "evolutionName": "charmeleon",
+        "method": 16
+      },
+      "evolution2": {
+        "evolutionName": "charizard",
+        "method": 36
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Lizardo",
+    "French": "Reptincel",
+    "German": "Glutexo",
+    "Korean": "리자드"
+  },
+  "classification": "Lizard",
+  "height": 1.1,
+  "weight": 19,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "special": 65,
+    "speed": 80
+  },
+  "locations": {
+    "red": "Evolve Charmander",
+    "blue": "Evolve Charmander",
+    "yellow": "Evolve Charmander"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "scratch"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "growl"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "ember"
+    },
+    {
+      "level": 9,
+      "attackId": "ember"
+    },
+    {
+      "level": 15,
+      "attackId": "leer"
+    },
+    {
+      "level": 24,
+      "attackId": "rage"
+    },
+    {
+      "level": 33,
+      "attackId": "slash"
+    },
+    {
+      "level": 42,
+      "attackId": "flamethrower"
+    },
+    {
+      "level": 56,
+      "attackId": "fire-spin"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm03",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm23",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm38",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm50",
+    "hm01",
+    "hm04"
+  ]
+}

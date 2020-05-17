@@ -17,8 +17,8 @@ export const PokemonCard = (props: PokemonCardProps) => {
   const { model, spritesFolderUrl } = props;
   return (
     <Card
-      className="border-secondary"
-      style={{ width: "10rem", margin: ".5rem" }}
+      className="border-secondary text-secondary"
+      style={{ width: "10rem" }}
     >
       <Card.Img
         variant="top"
@@ -26,7 +26,7 @@ export const PokemonCard = (props: PokemonCardProps) => {
         className="px-3 py-3"
         style={styles.image}
       />
-      <Card.Body>
+      <Card.Body className="bg-dark text-light">
         <Card.Title>{model.name}</Card.Title>
         <Card.Subtitle>{`#${model.pokedexNumber}`}</Card.Subtitle>
       </Card.Body>

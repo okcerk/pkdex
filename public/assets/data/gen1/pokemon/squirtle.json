@@ -1,0 +1,100 @@
+{
+  "name": "Squirtle",
+  "pokedexNumber": 7,
+  "type1": "water",
+  "evolution": [
+    {
+      "basePokemonName": "squirtle",
+      "evolution1": {
+        "evolutionName": "wartortle",
+        "method": 16
+      },
+      "evolution2": {
+        "evolutionName": "blastoise",
+        "method": 36
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Zenigame",
+    "French": "Carapuce",
+    "German": "Schiggy",
+    "Korean": "꼬부기"
+  },
+  "classification": "Turtle",
+  "height": 0.5,
+  "weight": 9,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 44,
+    "attack": 48,
+    "defense": 65,
+    "special": 50,
+    "speed": 43
+  },
+  "locations": {
+    "red": "Starter Pokémon",
+    "blue": "Starter Pokémon",
+    "yellow": "Gift in Vermilion City"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "tackle"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "tail-whip"
+    },
+    {
+      "level": 8,
+      "attackId": "bubble"
+    },
+    {
+      "level": 15,
+      "attackId": "water-gun"
+    },
+    {
+      "level": 22,
+      "attackId": "bite"
+    },
+    {
+      "level": 28,
+      "attackId": "withdraw"
+    },
+    {
+      "level": 35,
+      "attackId": "skull-bash"
+    },
+    {
+      "level": 42,
+      "attackId": "hydro-pump"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm40",
+    "tm44",
+    "tm50",
+    "hm03",
+    "hm04"
+  ]
+}

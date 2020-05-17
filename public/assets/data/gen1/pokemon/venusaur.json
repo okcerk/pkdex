@@ -1,6 +1,6 @@
 {
-  "name": "Bulbasaur",
-  "pokedexNumber": 1,
+  "name": "Venusaur",
+  "pokedexNumber": 3,
   "type1": "grass",
   "type2": "poison",
   "evolution": [
@@ -17,26 +17,26 @@
     }
   ],
   "otherNames": {
-    "Japanese": "Fushigidane",
-    "French": "Bulbizarre",
-    "German": "Bisasam",
-    "Korean": "이상해씨"
+    "Japanese": "Fushigibana",
+    "French": "Florizarre",
+    "German": "Bisaflor",
+    "Korean": "이상해꽃"
   },
   "classification": "Seed",
-  "height": 0.7,
-  "weight": 6.9,
+  "height": 2,
+  "weight": 100,
   "captureRate": 45,
   "baseStats": {
-    "hp": 45,
-    "attack": 49,
-    "defense": 49,
-    "special": 65,
-    "speed": 45
+    "hp": 80,
+    "attack": 82,
+    "defense": 83,
+    "special": 100,
+    "speed": 80
   },
   "locations": {
-    "red": "Starter Pokémon",
-    "blue": "Starter Pokémon",
-    "yellow": "Gift in Cerulean City"
+    "red": "Evolve Ivysaur",
+    "blue": "Evolve Ivysaur",
+    "yellow": "Evolve Ivysaur"
   },
   "attacks": [
     {
@@ -48,6 +48,14 @@
       "attackId": "growl"
     },
     {
+      "level": "baseAttack",
+      "attackId": "leech-seed"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "vine-whip"
+    },
+    {
       "level": 7,
       "attackId": "leech-seed"
     },
@@ -56,23 +64,23 @@
       "attackId": "vine-whip"
     },
     {
-      "level": 20,
+      "level": 22,
       "attackId": "poison-powder"
     },
     {
-      "level": 27,
+      "level": 30,
       "attackId": "razor-leaf"
     },
     {
-      "level": 34,
+      "level": 43,
       "attackId": "growth"
     },
     {
-      "level": 41,
+      "level": 55,
       "attackId": "sleep-powder"
     },
     {
-      "level": 48,
+      "level": 65,
       "attackId": "solar-beam"
     }
   ],

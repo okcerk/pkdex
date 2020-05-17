@@ -35,7 +35,7 @@ export enum PokemonType {
   Fairy = "fairy",
 }
 
-type PokemonStatsGen1 = Readonly<{
+export type PokemonStatsGen1 = Readonly<{
   hp: number;
   attack: number;
   defense: number;
@@ -43,7 +43,7 @@ type PokemonStatsGen1 = Readonly<{
   speed: number;
 }>;
 
-type PokemonStatsGen2AndAbove = Readonly<{
+export type PokemonStatsGen2AndAbove = Readonly<{
   hp: number;
   attack: number;
   specialAttack: number;
@@ -90,11 +90,25 @@ export type PokemonAttack = Readonly<{
   attackId: string;
 }>;
 
+export type PokemonEvolutionMethod = number | "trade";
+
+export type PokemonEvolution = Readonly<{
+  evolutionName: string;
+  method: PokemonEvolutionMethod;
+}>;
+
+export type PokemonEvolutionDisplayGroup = Readonly<{
+  basePokemonName: string;
+  evolution1: PokemonEvolution;
+  evolution2?: PokemonEvolution;
+}>;
+
 export type PokemonModel = Readonly<{
   name: string;
   pokedexNumber: number;
   type1: PokemonType;
   type2?: PokemonType;
+  evolution?: [PokemonEvolutionDisplayGroup];
   otherNames: { [language: string]: string };
   classification: string;
   height: number; // in meters
@@ -103,5 +117,5 @@ export type PokemonModel = Readonly<{
   baseStats: PokemonStats;
   locations: { [game: string]: string };
   attacks: [PokemonAttack];
-  tms: [string]; // i.e: "tm01" "hm02"
+  tms?: [string]; // i.e: "tm01" "hm02"
 }>;
