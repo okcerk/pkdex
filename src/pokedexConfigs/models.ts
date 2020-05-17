@@ -9,7 +9,7 @@ export type PokedexConfiguration = Readonly<{
   configName: string;
   spritesFolderUrl: string;
   pokemonDataFolderUrl: string;
-  attacksDataFolderUrl: string;
+  attacksUrl: string;
   entries: Record<string, PokemonCardModel>;
 }>;
 
@@ -88,6 +88,7 @@ export enum PokemonGame {
 export type PokemonAttack = Readonly<{
   level: number | "baseAttack";
   attackId: string;
+  exclusiveToGames?: string[];
 }>;
 
 export type PokemonEvolutionMethod = number | "trade";
@@ -116,6 +117,19 @@ export type PokemonModel = Readonly<{
   captureRate: number;
   baseStats: PokemonStats;
   locations: { [game: string]: string };
-  attacks: [PokemonAttack];
-  tms?: [string]; // i.e: "tm01" "hm02"
+  attacks: PokemonAttack[];
+  tms?: string[]; // i.e: "tm01" "hm02"
 }>;
+
+// Attacks model
+
+export type AttackModel = Readonly<{
+  name: string;
+  description: string;
+  attackType: string;
+  pp: number;
+  power: string;
+  accuracy: string;
+}>;
+
+export type AttacksDictionary = Readonly<{ [id: string]: AttackModel }>;

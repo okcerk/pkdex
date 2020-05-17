@@ -2,11 +2,9 @@ import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import useFetch from "react-fetch-hook";
 import { IconContext } from "react-icons";
-import {
-  DefaultPokedexConfig,
-  PokedexConfigMapper,
-} from "src/pokedexConfigs/configMapper";
+import { DefaultPokedexConfig, PokedexConfigMapper } from "src/pokedexConfigs/configMapper";
 import { PokemonModel } from "src/pokedexConfigs/models";
+import { AttacksTable } from "./AttacksTable";
 import { EvolutionFlow } from "./EvolutionFlow";
 import { StatsTable } from "./StatsTable";
 
@@ -33,7 +31,10 @@ const renderSeparator = () => (
 
 export const PokemonPage = (props: PokemonPageMainProps) => {
   const { configName, pokemonName } = props;
+
+  // TODO: put / get (if exists) config in redux
   const config = PokedexConfigMapper[configName] ?? DefaultPokedexConfig;
+
   const formattedPokemonName = getFormattedPokemonName(pokemonName);
   const model = config.entries[formattedPokemonName];
 
@@ -94,6 +95,13 @@ export const PokemonPage = (props: PokemonPageMainProps) => {
         <StatsTable stats={pokemonData.baseStats} />
       </Row>
       {renderSeparator()}
+      <Row className="d-flex justify-content-center py-4">
+        <AttacksTable
+          attacks={pokemonData.attacks}
+          attacksUrl={config.attacksUrl}
+          configName={config.configName}
+        />
+      </Row>
     </IconContext.Provider>
   );
 };

@@ -1,0 +1,143 @@
+{
+  "name": "Butterfree",
+  "pokedexNumber": 12,
+  "type1": "bug",
+  "evolution": [
+    {
+      "basePokemonName": "caterpie",
+      "evolution1": {
+        "evolutionName": "metapod",
+        "method": 7
+      },
+      "evolution2": {
+        "evolutionName": "butterfree",
+        "method": 10
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Butterfree",
+    "French": "Papilusion",
+    "German": "Smettbo",
+    "Korean": "버터플"
+  },
+  "classification": "Butterfly",
+  "height": 1.1,
+  "weight": 32,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 50,
+    "special": 80,
+    "speed": 70
+  },
+  "locations": {
+    "red": "Evolve Metapod",
+    "blue": "Evolve Metapod",
+    "yellow": "Evolve Metapod"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "confusion"
+    },
+    {
+      "level": 12,
+      "attackId": "confusion",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 15,
+      "attackId": "poisonpowder",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 16,
+      "attackId": "stunspore",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 17,
+      "attackId": "sleepowder",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 21,
+      "attackId": "supersonic",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 26,
+      "attackId": "whirlwind",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 32,
+      "attackId": "psybeam",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 10,
+      "attackId": "confusion",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 13,
+      "attackId": "poisonpowder",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 14,
+      "attackId": "stunspore",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 15,
+      "attackId": "sleepowder",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 18,
+      "attackId": "supersonic",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 23,
+      "attackId": "whirlwind",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 28,
+      "attackId": "gust",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 34,
+      "attackId": "psybeam",
+      "exclusiveToGames": ["yellow"]
+    }
+  ],
+  "tms": [
+    "tm02",
+    "tm04",
+    "tm06",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm20",
+    "tm21",
+    "tm22",
+    "tm29",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm39",
+    "tm44",
+    "tm46",
+    "tm50",
+    "hm05"
+  ]
+}

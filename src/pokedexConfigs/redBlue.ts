@@ -3,7 +3,7 @@ import { PokedexConfiguration } from "./models";
 export const redBlue: PokedexConfiguration = {
   configName: "red-blue",
   spritesFolderUrl: "/assets/sprites/red-blue/",
-  attacksDataFolderUrl: "/assets/data/gen1/attacks/",
+  attacksUrl: "/assets/data/gen1/attacks.json",
   pokemonDataFolderUrl: "/assets/data/gen1/pokemon/",
   entries: {
     bulbasaur: { name: "Bulbasaur", pokedexNumber: 1, spriteUrl: "1.png" },
