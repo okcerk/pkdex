@@ -1,0 +1,83 @@
+{
+  "name": "Bulbasaur",
+  "pokedexNumber": 1,
+  "type1": "grass",
+  "type2": "poison",
+  "otherNames": {
+    "Japanese": "Fushigidane",
+    "French": "Bulbizarre",
+    "German": "Bisasam",
+    "Korean": "이상해씨"
+  },
+  "classification": "seed",
+  "height": 0.7,
+  "weight": 6.9,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 45,
+    "attack": 49,
+    "defense": 49,
+    "special": 65,
+    "speed": 45
+  },
+  "locations": {
+    "red": "Starter Pokémon",
+    "blue": "Starter Pokémon",
+    "yellow": "Gift in Cerulean City"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "tackle"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "growl"
+    },
+    {
+      "level": 7,
+      "attackId": "leech-seed"
+    },
+    {
+      "level": 13,
+      "attackId": "vine-whip"
+    },
+    {
+      "level": 20,
+      "attackId": "poison-powder"
+    },
+    {
+      "level": 27,
+      "attackId": "razor-leaf"
+    },
+    {
+      "level": 34,
+      "attackId": "growth"
+    },
+    {
+      "level": 41,
+      "attackId": "sleep-powder"
+    },
+    {
+      "level": 48,
+      "attackId": "solar-beam"
+    }
+  ],
+  "tms": [
+    "tm03",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm20",
+    "tm21",
+    "tm22",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm44",
+    "tm50",
+    "hm01"
+  ]
+}

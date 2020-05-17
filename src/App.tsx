@@ -1,19 +1,17 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Container, Form, FormControl, Nav, Navbar } from "react-bootstrap";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { PokedexProps, PokemonPageProps } from "./helpers/routeHelper";
 import { PokedexMain } from "./pages/PokedexMain/PokedexMain";
-import { Container, Navbar, Nav, Form, FormControl } from "react-bootstrap";
+import { PokemonPage } from "./pages/PokemonPage/PokemonPage";
+import { DefaultPokedexConfigName } from "./pokedexConfigs/configMapper";
 import {
   initialSearchState,
+  SearchActionType,
   SearchContext,
   SearchDispatchContext,
   searchReducer,
-  SearchActionType,
 } from "./searchContext";
-import {
-  PokedexConfigMapper,
-  DefaultPokedexConfig,
-} from "./pokedexConfigs/configMapper";
-import { PokedexProps } from "./helpers/routeHelper";
 
 export const App = () => {
   const [searchState, searchDispatch] = React.useReducer(
@@ -23,11 +21,14 @@ export const App = () => {
 
   const getPokedexComponent = ({ match }: PokedexProps) => {
     const configName = match.params.configName.toLocaleLowerCase();
-    return (
-      <PokedexMain
-        config={PokedexConfigMapper[configName] ?? DefaultPokedexConfig}
-      />
-    );
+    return <PokedexMain configName={configName} />;
+  };
+
+  const getPokemonPage = ({ match }: PokemonPageProps) => {
+    const configName = match.params.configName.toLocaleLowerCase();
+    const pokemonName = match.params.pokemonName.toLocaleLowerCase();
+    console.log("spiderman");
+    return <PokemonPage configName={configName} pokemonName={pokemonName} />;
   };
 
   return (
@@ -65,9 +66,13 @@ export const App = () => {
               <Route path="/about">
                 <About />
               </Route>
+              <Route
+                path="/pokedex/:configName/:pokemonName"
+                render={getPokemonPage}
+              />
               <Route path="/pokedex/:configName" render={getPokedexComponent} />
               <Route path="/">
-                <PokedexMain config={DefaultPokedexConfig} />
+                <PokedexMain configName={DefaultPokedexConfigName} />
               </Route>
             </Switch>
           </Container>

@@ -1,33 +1,42 @@
+/* eslint-disable no-restricted-globals */
 import React from "react";
 import { Row } from "react-bootstrap";
+import {
+  DefaultPokedexConfig,
+  PokedexConfigMapper,
+} from "src/pokedexConfigs/configMapper";
 import { PokemonCard } from "../../components/PokemonCard/PokemonCard";
-import { redBlue } from "../../pokedexConfigs/redBlue";
 import { useSearchState } from "../../searchContext";
-import { PokedexConfiguration } from "src/pokedexConfigs/model";
-import { PokedexConfigMapper } from "src/pokedexConfigs/configMapper";
 
 interface IPokedexMainProps {
-  config: PokedexConfiguration;
+  configName: string;
 }
 
 type PokedexMainProps = Readonly<IPokedexMainProps>;
 
 export const PokedexMain = (props: PokedexMainProps) => {
-  const { config } = props;
+  const { configName } = props;
+  const config = PokedexConfigMapper[configName] ?? DefaultPokedexConfig;
   const spritesFolderUrl = config.spritesFolderUrl;
   const searchState = useSearchState();
   const currentSearchQuery = searchState.query;
   return (
     <Row className="d-flex justify-content-center">
-      {Object.keys(config.entries).map((key) => {
-        const model = config.entries[key];
+      {Object.keys(config.entries).map((pokemonKey) => {
+        const model = config.entries[pokemonKey];
         if (
           !currentSearchQuery ||
           model.name.toLocaleLowerCase().includes(currentSearchQuery) ||
           model.pokedexNumber.toString().includes(currentSearchQuery)
         ) {
           return (
-            <PokemonCard model={model} spritesFolderUrl={spritesFolderUrl} />
+            <a
+              className="text-secondary"
+              style={{ cursor: "pointer" }}
+              href={`${location.origin}/pokedex/${config.configName}/${pokemonKey}`}
+            >
+              <PokemonCard model={model} spritesFolderUrl={spritesFolderUrl} />
+            </a>
           );
         }
         return false;

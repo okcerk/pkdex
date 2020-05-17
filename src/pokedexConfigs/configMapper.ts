@@ -1,4 +1,4 @@
-import { PokedexConfiguration } from "./model";
+import { PokedexConfiguration } from "./models";
 import { redBlue } from "./redBlue";
 import { yellow } from "./yellow";
 
@@ -16,4 +16,6 @@ export const PokedexConfigMapper: Record<string, PokedexConfiguration> = {
   [PokedexConfigs.Yellow]: yellow,
 };
 
-export const DefaultPokedexConfig = PokedexConfigMapper[PokedexConfigs.RedBlue];
+export const DefaultPokedexConfigName = PokedexConfigs.RedBlue;
+export const DefaultPokedexConfig =
+  PokedexConfigMapper[DefaultPokedexConfigName];
