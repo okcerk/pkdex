@@ -49,19 +49,19 @@
     },
     {
       "level": 7,
-      "attackId": "leech-seed"
+      "attackId": "leechseed"
     },
     {
       "level": 13,
-      "attackId": "vine-whip"
+      "attackId": "vinewhip"
     },
     {
       "level": 20,
-      "attackId": "poison-powder"
+      "attackId": "poisonpowder"
     },
     {
       "level": 27,
-      "attackId": "razor-leaf"
+      "attackId": "razorleaf"
     },
     {
       "level": 34,
@@ -69,11 +69,11 @@
     },
     {
       "level": 41,
-      "attackId": "sleep-powder"
+      "attackId": "sleeppowder"
     },
     {
       "level": 48,
-      "attackId": "solar-beam"
+      "attackId": "solarbeam"
     }
   ],
   "tms": [

@@ -44,7 +44,7 @@
     },
     {
       "level": "baseAttack",
-      "attackId": "tail-whip"
+      "attackId": "tailwhip"
     },
     {
       "level": 8,
@@ -52,7 +52,7 @@
     },
     {
       "level": 15,
-      "attackId": "water-gun"
+      "attackId": "watergun"
     },
     {
       "level": 22,
@@ -64,11 +64,11 @@
     },
     {
       "level": 35,
-      "attackId": "skull-bash"
+      "attackId": "skullbash"
     },
     {
       "level": 42,
-      "attackId": "hydro-pump"
+      "attackId": "hydropump"
     }
   ],
   "tms": [
