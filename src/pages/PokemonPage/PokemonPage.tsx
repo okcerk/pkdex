@@ -58,7 +58,7 @@ export const PokemonPage = (props: PokemonPageMainProps) => {
         <Col className="d-flex justify-content-center" lg={3}>
           <Image
             src={spriteUrl}
-            className="border-secondary"
+            className="border-secondary bg-light"
             style={styles.image}
             thumbnail
           />

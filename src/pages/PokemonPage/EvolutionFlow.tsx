@@ -43,7 +43,7 @@ const renderImage = (
     >
       <Image
         src={url}
-        className="border-secondary"
+        className="border-secondary bg-light"
         style={styles.image}
         thumbnail
       />
