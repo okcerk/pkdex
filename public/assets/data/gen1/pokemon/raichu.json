@@ -1,0 +1,75 @@
+{
+  "name": "Raichu",
+  "pokedexNumber": 26,
+  "type1": "electric",
+  "evolution": [
+    {
+      "basePokemonName": "pikachu",
+      "evolution1": {
+        "evolutionName": "raichu",
+        "method": "thunderstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Raichu",
+    "French": "Raichu",
+    "German": "Raichu",
+    "Korean": "라이츄"
+  },
+  "classification": "Mouse",
+  "height": 0.8,
+  "weight": 30,
+  "captureRate": 75,
+  "baseStats": {
+    "hp": 60,
+    "attack": 90,
+    "defense": 55,
+    "special": 90,
+    "speed": 100
+  },
+  "locations": {
+    "red": "Cerulean Cave",
+    "blue": "Cerulean Cave, Power Plant",
+    "yellow": "Trade from Red, Green or Blue"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "thundershock"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "growl"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "thunderwave"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm16",
+    "tm17",
+    "tm19",
+    "tm20",
+    "tm24",
+    "tm25",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm45",
+    "tm50",
+    "hm05"
+  ]
+}

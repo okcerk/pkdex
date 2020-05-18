@@ -1,0 +1,83 @@
+{
+  "name": "Spearow",
+  "pokedexNumber": 21,
+  "type1": "normal",
+  "type2": "flying",
+  "evolution": [
+    {
+      "basePokemonName": "spearow",
+      "evolution1": {
+        "evolutionName": "fearow",
+        "method": 20
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Onisuzume",
+    "French": "Piafabec",
+    "German": "Habitak",
+    "Korean": "깨비참"
+  },
+  "classification": "Tiny Bird",
+  "height": 0.3,
+  "weight": 2,
+  "captureRate": 255,
+  "baseStats": {
+    "hp": 40,
+    "attack": 60,
+    "defense": 30,
+    "special": 31,
+    "speed": 70
+  },
+  "locations": {
+    "red": "Route 3, Route 4, Route 9, Route 10, Route 11, Route 16, Route 17, Route 18, Route 22, Route 23",
+    "blue": "Route 3, Route 4, Route 9, Route 10, Route 11, Route 16, Route 17, Route 18, Route 22, Route 23",
+    "yellow": "Route 3, Route 4, Route 9, Route 16, Route 18, Route 22"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "peck"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "growl"
+    },
+    {
+      "level": 9,
+      "attackId": "leer"
+    },
+    {
+      "level": 15,
+      "attackId": "furyattack"
+    },
+    {
+      "level": 22,
+      "attackId": "mirrormove"
+    },
+    {
+      "level": 29,
+      "attackId": "drillpeck"
+    },
+    {
+      "level": 36,
+      "attackId": "agility"
+    }
+  ],
+  "tms": [
+    "tm02",
+    "tm04",
+    "tm06",
+    "tm09",
+    "tm10",
+    "tm20",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm39",
+    "tm43",
+    "tm44",
+    "tm50",
+    "hm02"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Pidgey",
+  "pokedexNumber": 16,
+  "type1": "normal",
+  "type2": "flying",
+  "evolution": [
+    {
+      "basePokemonName": "pidgey",
+      "evolution1": {
+        "evolutionName": "pidgeotto",
+        "method": 18
+      },
+      "evolution2": {
+        "evolutionName": "pidgeot",
+        "method": 36
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Poppo",
+    "French": "Roucool",
+    "German": "Taubsi",
+    "Korean": "구구"
+  },
+  "classification": "Tiny Bird",
+  "height": 0.3,
+  "weight": 1.8,
+  "captureRate": 255,
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "special": 35,
+    "speed": 56
+  },
+  "locations": {
+    "red": "Route 1, Route 2, Route 3, Route 5, Route 6, Route 7, Route 8, Route 12, Route 13, Route 14, Route 15, Route 21, Route 24, Route 25",
+    "blue": "Route 1, Route 2, Route 3, Route 5, Route 6, Route 7, Route 8, Route 12, Route 13, Route 14, Route 15, Route 21, Route 24, Route 25",
+    "yellow": "Route 1, Route 2, Route 5, Route 6, Route 7, Route 8, Route 11, Route 12, Route 13, Route 21, Route 24, Route 25, Viridian Forest"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "gust"
+    },
+    {
+      "level": 5,
+      "attackId": "sandattack"
+    },
+    {
+      "level": 12,
+      "attackId": "quickattack"
+    },
+    {
+      "level": 19,
+      "attackId": "whirlwind"
+    },
+    {
+      "level": 28,
+      "attackId": "wingattack"
+    },
+    {
+      "level": 36,
+      "attackId": "agility"
+    },
+    {
+      "level": 44,
+      "attackId": "mirrormove"
+    }
+  ],
+  "tms": [
+    "tm02",
+    "tm04",
+    "tm06",
+    "tm09",
+    "tm10",
+    "tm20",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm39",
+    "tm43",
+    "tm44",
+    "tm50",
+    "hm02"
+  ]
+}

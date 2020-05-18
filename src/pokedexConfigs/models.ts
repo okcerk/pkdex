@@ -91,7 +91,13 @@ export type PokemonAttack = Readonly<{
   exclusiveToGames?: string[];
 }>;
 
-export type PokemonEvolutionMethod = number | "trade";
+export type PokemonEvolutionMethod =
+  | number
+  | "trade"
+  | "thunderstone"
+  | "firestone"
+  | "grassstone"
+  | "waterstone";
 
 export type PokemonEvolution = Readonly<{
   evolutionName: string;

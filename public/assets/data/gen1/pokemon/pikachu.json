@@ -1,0 +1,135 @@
+{
+  "name": "Pikachu",
+  "pokedexNumber": 25,
+  "type1": "electric",
+  "evolution": [
+    {
+      "basePokemonName": "pikachu",
+      "evolution1": {
+        "evolutionName": "raichu",
+        "method": "thunderstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Pikachu",
+    "French": "Pikachu",
+    "German": "Pikachu",
+    "Korean": "피카츄"
+  },
+  "classification": "Mouse",
+  "height": 0.4,
+  "weight": 6,
+  "captureRate": 190,
+  "baseStats": {
+    "hp": 35,
+    "attack": 55,
+    "defense": 30,
+    "special": 50,
+    "speed": 90
+  },
+  "locations": {
+    "red": "Viridian Forest, Power Plant",
+    "blue": "Viridian Forest, Power Plant",
+    "yellow": "Starter Pokémon"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "thundershock"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "growl"
+    },
+    {
+      "level": 6,
+      "attackId": "tailwhip",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 8,
+      "attackId": "thunderwave",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 9,
+      "attackId": "thunderwave",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 11,
+      "attackId": "quickattack",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 15,
+      "attackId": "doubleteam",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 16,
+      "attackId": "quickattack",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 20,
+      "attackId": "slam",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 26,
+      "attackId": "swift",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 26,
+      "attackId": "thunderbolt",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 33,
+      "attackId": "agility"
+    },
+    {
+      "level": 41,
+      "attackId": "thunder",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 43,
+      "attackId": "thunder",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 50,
+      "attackId": "lightscreen",
+      "exclusiveToGames": ["yellow"]
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm16",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm24",
+    "tm25",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm45",
+    "tm50",
+    "hm05"
+  ]
+}

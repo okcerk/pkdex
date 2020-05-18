@@ -49,9 +49,7 @@ const renderTableRow = (
       <td>{attackModel.pp}</td>
       <td>{attackModel.power}</td>
       <td>{attackModel.accuracy}</td>
-      <td colSpan={3} className="d-none d-md-block">
-        {attackModel.description}
-      </td>
+      <td className="d-none d-md-block">{attackModel.description}</td>
     </tr>
   );
 };

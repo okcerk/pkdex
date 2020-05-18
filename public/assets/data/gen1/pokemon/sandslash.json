@@ -1,0 +1,90 @@
+{
+  "name": "Sandslash",
+  "pokedexNumber": 28,
+  "type1": "ground",
+  "evolution": [
+    {
+      "basePokemonName": "sandshrew",
+      "evolution1": {
+        "evolutionName": "sandslash",
+        "method": 22
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Sandpan",
+    "French": "Sablaireau",
+    "German": "Sandamer",
+    "Korean": "고지"
+  },
+  "classification": "Mouse",
+  "height": 1,
+  "weight": 29.5,
+  "captureRate": 90,
+  "baseStats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 110,
+    "special": 55,
+    "speed": 65
+  },
+  "locations": {
+    "red": "Trade from Green, Blue or Yellow",
+    "blue": "Route 23, Cerulean Cave",
+    "yellow": "Cerulean Cave"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "scratch"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "sandattack"
+    },
+    {
+      "level": 10,
+      "attackId": "sandattack"
+    },
+    {
+      "level": 17,
+      "attackId": "slash"
+    },
+    {
+      "level": 27,
+      "attackId": "poisonsting"
+    },
+    {
+      "level": 36,
+      "attackId": "swift"
+    },
+    {
+      "level": 47,
+      "attackId": "furyswipes"
+    }
+  ],
+  "tms": [
+    "tm03",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm17",
+    "tm19",
+    "tm20",
+    "tm26",
+    "tm27",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm48",
+    "tm50",
+    "hm01",
+    "hm04"
+  ]
+}

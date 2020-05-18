@@ -1,0 +1,131 @@
+{
+  "name": "Eevee",
+  "pokedexNumber": 133,
+  "type1": "normal",
+  "evolution": [
+    {
+      "basePokemonName": "eevee",
+      "evolution1": {
+        "evolutionName": "vaporeon",
+        "method": "waterstone"
+      }
+    },
+    {
+      "basePokemonName": "eevee",
+      "evolution1": {
+        "evolutionName": "jolteon",
+        "method": "thunderstone"
+      }
+    },
+    {
+      "basePokemonName": "eevee",
+      "evolution1": {
+        "evolutionName": "flareon",
+        "method": "firestone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Eievui",
+    "French": "Évoli",
+    "German": "Evoli",
+    "Korean": "이브이"
+  },
+  "classification": "Evolution",
+  "height": 0.3,
+  "weight": 6.5,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 50,
+    "special": 65,
+    "speed": 55
+  },
+  "locations": {
+    "red": "Gift in Celadon City",
+    "blue": "Gift in Celadon City",
+    "yellow": "Gift in Celadon City"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "tackle"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "sandattack",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "tailwhip",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 8,
+      "attackId": "sandattack",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 16,
+      "attackId": "growl",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 23,
+      "attackId": "quickattack",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 27,
+      "attackId": "quickattack",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 30,
+      "attackId": "bite",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 31,
+      "attackId": "tailwhip",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 36,
+      "attackId": "focusenergy",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 37,
+      "attackId": "bite",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 42,
+      "attackId": "takedown",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 45,
+      "attackId": "takedown",
+      "exclusiveToGames": ["red-blue"]
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm20",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm50"
+  ]
+}

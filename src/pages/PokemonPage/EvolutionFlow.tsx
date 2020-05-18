@@ -59,6 +59,14 @@ const getEvolutionText = (method: PokemonEvolutionMethod) => {
   switch (method) {
     case "trade":
       return "Trade";
+    case "thunderstone":
+      return "Thunder Stone";
+    case "firestone":
+      return "Thunder Stone";
+    case "grassstone":
+      return "Thunder Stone";
+    case "waterstone":
+      return "Thunder Stone";
     default:
       return "";
   }

@@ -383,9 +383,9 @@
     "power": "N/A",
     "accuracy": "N/A"
   },
-  "fury": {
-    "name": "Fury",
-    "description": "Attack Attacks 2-5 times in one turn; if one of these attacks breaks a target's Substitute, the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice, a 3/8 chance to hit three times, a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
+  "furyattack": {
+    "name": "Fury Attack",
+    "description": "Attacks 2-5 times in one turn; if one of these attacks breaks a target's Substitute, the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice, a 3/8 chance to hit three times, a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
     "attackType": "normal",
     "pp": 20,
     "power": "15",
@@ -405,23 +405,23 @@
     "attackType": "normal",
     "pp": 30,
     "power": "N/A",
-    "accuracy": "N/A 75%"
+    "accuracy": "75%"
   },
   "growl": {
     "name": "Growl",
     "description": "Lowers the target's Attack by 1 stage.",
     "attackType": "normal",
     "pp": 40,
-    "power": "40",
-    "accuracy": "N/A 100%"
+    "power": "N/A",
+    "accuracy": "100%"
   },
   "growth": {
     "name": "Growth",
     "description": "Raises the user's Special by 1 stage.",
     "attackType": "normal",
     "pp": 40,
-    "power": "40",
-    "accuracy": "N/A N/A"
+    "power": "N/A",
+    "accuracy": "N/A"
   },
   "guillotine": {
     "name": "Guillotine",

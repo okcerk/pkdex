@@ -1,5 +1,13 @@
 import React from "react";
-import { Container, Form, FormControl, Nav, Navbar } from "react-bootstrap";
+import {
+  Button,
+  Container,
+  Form,
+  FormControl,
+  Nav,
+  Navbar,
+  NavDropdown,
+} from "react-bootstrap";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { PokedexProps, PokemonPageProps } from "./helpers/routeHelper";
 import { PokedexMain } from "./pages/PokedexMain/PokedexMain";
@@ -12,6 +20,13 @@ import {
   SearchDispatchContext,
   searchReducer,
 } from "./searchContext";
+
+const styles = {
+  searchButton: {
+    backgroundColor: "gray",
+    borderColor: "white",
+  },
+};
 
 export const App = () => {
   const [searchState, searchDispatch] = React.useReducer(
@@ -27,7 +42,6 @@ export const App = () => {
   const getPokemonPage = ({ match }: PokemonPageProps) => {
     const configName = match.params.configName.toLocaleLowerCase();
     const pokemonName = match.params.pokemonName.toLocaleLowerCase();
-    console.log("spiderman");
     return <PokemonPage configName={configName} pokemonName={pokemonName} />;
   };
 
@@ -38,13 +52,20 @@ export const App = () => {
           <SearchDispatchContext.Provider value={searchDispatch}>
             <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
               <Navbar.Brand href="/">Pokedex</Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
+              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                  <Nav.Link href="/">Home</Nav.Link>
+                  <NavDropdown title="Game" id="collasible-nav-dropdown">
+                    <NavDropdown.Item href="/pokedex/red-blue">
+                      Red & Blue
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/pokedex/yellow">
+                      Yellow
+                    </NavDropdown.Item>
+                  </NavDropdown>
                   <Nav.Link href="/about">About</Nav.Link>
                 </Nav>
-                <Form className="w-25">
+                <Form inline>
                   <FormControl
                     type="text"
                     placeholder="Search by name"
@@ -56,6 +77,9 @@ export const App = () => {
                       })
                     }
                   />
+                  <Button variant="primary" style={styles.searchButton}>
+                    Search
+                  </Button>
                 </Form>
               </Navbar.Collapse>
             </Navbar>

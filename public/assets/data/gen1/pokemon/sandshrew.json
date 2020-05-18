@@ -1,0 +1,85 @@
+{
+  "name": "Sandshrew",
+  "pokedexNumber": 27,
+  "type1": "ground",
+  "evolution": [
+    {
+      "basePokemonName": "sandshrew",
+      "evolution1": {
+        "evolutionName": "sandslash",
+        "method": 22
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Sand",
+    "French": "Sabelette",
+    "German": "Sandan",
+    "Korean": "모래두지"
+  },
+  "classification": "Mouse",
+  "height": 0.6,
+  "weight": 12,
+  "captureRate": 255,
+  "baseStats": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 85,
+    "special": 30,
+    "speed": 40
+  },
+  "locations": {
+    "red": "Trade from Green, Blue or Yellow",
+    "blue": "Route 4, Route 8, Route 9, Route 10, Route 11, Route 23",
+    "yellow": "Route 3, Route 4, Mt. Moon"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "scratch"
+    },
+    {
+      "level": 10,
+      "attackId": "sandattack"
+    },
+    {
+      "level": 17,
+      "attackId": "slash"
+    },
+    {
+      "level": 24,
+      "attackId": "poisonsting"
+    },
+    {
+      "level": 31,
+      "attackId": "swift"
+    },
+    {
+      "level": 38,
+      "attackId": "furyswipes"
+    }
+  ],
+  "tms": [
+    "tm03",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm17",
+    "tm19",
+    "tm20",
+    "tm26",
+    "tm27",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm48",
+    "tm50",
+    "hm01",
+    "hm04"
+  ]
+}
