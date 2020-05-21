@@ -1,0 +1,129 @@
+{
+  "name": "Nidorino",
+  "pokedexNumber": 33,
+  "type1": "poison",
+  "evolution": [
+    {
+      "basePokemonName": "nidoranm",
+      "evolution1": {
+        "evolutionName": "nidorino",
+        "method": 16
+      },
+      "evolution2": {
+        "evolutionName": "nidoking",
+        "method": "moonstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Nidorino",
+    "French": "Nidorino",
+    "German": "Nidorino",
+    "Korean": "니드리노"
+  },
+  "classification": "Poison Pin",
+  "height": 0.9,
+  "weight": 19.5,
+  "captureRate": 120,
+  "baseStats": {
+    "hp": 61,
+    "attack": 72,
+    "defense": 57,
+    "special": 55,
+    "speed": 65
+  },
+  "locations": {
+    "red": "Safari Zone",
+    "blue": "Safari Zone",
+    "yellow": "Route 9, Route 23, Safari Zone"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "leer"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "tackle"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "hornattack"
+    },
+    {
+      "level": 8,
+      "attackId": "hornattack"
+    },
+    {
+      "level": 12,
+      "attackId": "doublekick",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 14,
+      "attackId": "poisonsting",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 19,
+      "attackId": "poisonsting",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 23,
+      "attackId": "focusenergy",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 27,
+      "attackId": "focusenergy",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 32,
+      "attackId": "furyattack",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 36,
+      "attackId": "furyattack",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 41,
+      "attackId": "horndrill",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 46,
+      "attackId": "horndrill",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 50,
+      "attackId": "doublekick",
+      "exclusiveToGames": ["red-blue"]
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm07",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm20",
+    "tm24",
+    "tm25",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm40",
+    "tm44",
+    "tm50"
+  ]
+}

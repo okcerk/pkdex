@@ -67,6 +67,8 @@ const getEvolutionText = (method: PokemonEvolutionMethod) => {
       return "Thunder Stone";
     case "waterstone":
       return "Thunder Stone";
+    case "moonstone":
+      return "Moon Stone";
     default:
       return "";
   }
@@ -100,7 +102,7 @@ export const EvolutionFlow = (props: EvolutionFlowProps) => {
       {renderImage(
         spriteBaseFolder,
         basePokemonModel.spriteUrl,
-        basePokemonModel.name,
+        evolution.basePokemonName,
         config.configName
       )}
       {renderArrow(evolution.evolution1.method)}

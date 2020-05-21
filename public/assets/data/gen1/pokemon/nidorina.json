@@ -1,0 +1,125 @@
+{
+  "name": "Nidorina",
+  "pokedexNumber": 30,
+  "type1": "poison",
+  "evolution": [
+    {
+      "basePokemonName": "nidoranf",
+      "evolution1": {
+        "evolutionName": "nidorina",
+        "method": 16
+      },
+      "evolution2": {
+        "evolutionName": "nidoqueen",
+        "method": "moonstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Nidorina",
+    "French": "Nidorina",
+    "German": "Nidorina",
+    "Korean": "니드리나"
+  },
+  "classification": "Poison Pin",
+  "height": 0.8,
+  "weight": 20,
+  "captureRate": 120,
+  "baseStats": {
+    "hp": 70,
+    "attack": 62,
+    "defense": 67,
+    "special": 55,
+    "speed": 56
+  },
+  "locations": {
+    "red": "Safari Zone",
+    "blue": "Safari Zone",
+    "yellow": "Route 9, Route 23, Safari Zone"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "growl"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "tackle"
+    },
+    {
+      "level": 8,
+      "attackId": "scratch"
+    },
+    {
+      "level": 12,
+      "attackId": "doublekick",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 14,
+      "attackId": "poisonsting",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 19,
+      "attackId": "poisonsting",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 23,
+      "attackId": "tailwhip",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 27,
+      "attackId": "tailwhip",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 32,
+      "attackId": "bite",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 36,
+      "attackId": "bite",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 46,
+      "attackId": "furyswipes",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 38,
+      "attackId": "furyswipes",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 50,
+      "attackId": "doublekick",
+      "exclusiveToGames": ["red-blue"]
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm07",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm20",
+    "tm24",
+    "tm25",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm40",
+    "tm44",
+    "tm50"
+  ]
+}

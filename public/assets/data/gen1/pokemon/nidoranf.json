@@ -1,0 +1,121 @@
+{
+  "name": "Nidoran ♀",
+  "pokedexNumber": 29,
+  "type1": "poison",
+  "evolution": [
+    {
+      "basePokemonName": "nidoranf",
+      "evolution1": {
+        "evolutionName": "nidorina",
+        "method": 16
+      },
+      "evolution2": {
+        "evolutionName": "nidoqueen",
+        "method": "moonstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Nidoran?",
+    "French": "Nidoran♀",
+    "German": "Nidoran♀",
+    "Korean": "니드런♀"
+  },
+  "classification": "Poison Pin",
+  "height": 0.4,
+  "weight": 7,
+  "captureRate": 235,
+  "baseStats": {
+    "hp": 55,
+    "attack": 47,
+    "defense": 52,
+    "special": 40,
+    "speed": 41
+  },
+  "locations": {
+    "red": "Route 22, Safari Zone",
+    "blue": "Route 22, Safari Zone",
+    "yellow": "Route 2, Route 9, Route 10, Route 22, Safari Zone"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "growl"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "tackle"
+    },
+    {
+      "level": 8,
+      "attackId": "scratch"
+    },
+    {
+      "level": 12,
+      "attackId": "doublekick",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 14,
+      "attackId": "poisonsting",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 17,
+      "attackId": "poisonsting",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 21,
+      "attackId": "tailwhip",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 23,
+      "attackId": "tailwhip",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 29,
+      "attackId": "bite",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 30,
+      "attackId": "bite",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 36,
+      "attackId": "furyswipes",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 38,
+      "attackId": "furyswipes",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 43,
+      "attackId": "doublekick",
+      "exclusiveToGames": ["red-blue"]
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm14",
+    "tm20",
+    "tm24",
+    "tm25",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm40",
+    "tm44",
+    "tm50"
+  ]
+}

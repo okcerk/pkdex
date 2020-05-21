@@ -97,7 +97,8 @@ export type PokemonEvolutionMethod =
   | "thunderstone"
   | "firestone"
   | "grassstone"
-  | "waterstone";
+  | "waterstone"
+  | "moonstone";
 
 export type PokemonEvolution = Readonly<{
   evolutionName: string;
