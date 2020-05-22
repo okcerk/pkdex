@@ -1,0 +1,104 @@
+{
+  "name": "Jigglypuff",
+  "pokedexNumber": 39,
+  "type1": "normal",
+  "evolution": [
+    {
+      "basePokemonName": "jigglypuff",
+      "evolution1": {
+        "evolutionName": "wigglytuff",
+        "method": "moonstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Purin",
+    "French": "Rondoudou",
+    "German": "Pummeluff",
+    "Korean": "푸린"
+  },
+  "classification": "Balloon",
+  "height": 0.5,
+  "weight": 5.5,
+  "captureRate": 170,
+  "baseStats": {
+    "hp": 115,
+    "attack": 45,
+    "defense": 20,
+    "special": 25,
+    "speed": 20
+  },
+  "locations": {
+    "red": "Route 3",
+    "blue": "Route 3",
+    "yellow": "Route 5, Route 6, Route 7, Route 8"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "sing"
+    },
+    {
+      "level": 9,
+      "attackId": "pound"
+    },
+    {
+      "level": 14,
+      "attackId": "disable"
+    },
+    {
+      "level": 19,
+      "attackId": "defensecurl"
+    },
+    {
+      "level": 24,
+      "attackId": "doubleslap"
+    },
+    {
+      "level": 29,
+      "attackId": "rest"
+    },
+    {
+      "level": 34,
+      "attackId": "bodyslam"
+    },
+    {
+      "level": 39,
+      "attackId": "doubleedge"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm22",
+    "tm24",
+    "tm25",
+    "tm29",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm38",
+    "tm40",
+    "tm44",
+    "tm45",
+    "tm46",
+    "tm49",
+    "tm50",
+    "hm04",
+    "hm05"
+  ]
+}

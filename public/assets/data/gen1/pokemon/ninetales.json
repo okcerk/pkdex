@@ -1,0 +1,72 @@
+{
+  "name": "Ninetales",
+  "pokedexNumber": 38,
+  "type1": "fire",
+  "evolution": [
+    {
+      "basePokemonName": "vulpix",
+      "evolution1": {
+        "evolutionName": "ninetales",
+        "method": "firestone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Kyukon",
+    "French": "Feunard",
+    "German": "Vulnona",
+    "Korean": "나인테일"
+  },
+  "classification": "Fox",
+  "height": 1.1,
+  "weight": 19.9,
+  "captureRate": 75,
+  "baseStats": {
+    "hp": 73,
+    "attack": 76,
+    "defense": 75,
+    "special": 100,
+    "speed": 100
+  },
+  "locations": {
+    "red": "Trade from Green, Blue or Yellow",
+    "blue": "Evolve Vulpix",
+    "yellow": "Evolve Vulpix"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "ember"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "tailwhip"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "quickattack"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "roar"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm20",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm38",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm50"
+  ]
+}

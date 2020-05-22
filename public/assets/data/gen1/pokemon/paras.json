@@ -1,0 +1,82 @@
+{
+  "name": "Paras",
+  "pokedexNumber": 46,
+  "type1": "bug",
+  "type2": "grass",
+  "evolution": [
+    {
+      "basePokemonName": "paras",
+      "evolution1": {
+        "evolutionName": "parasect",
+        "method": 24
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Paras",
+    "French": "Paras",
+    "German": "Paras",
+    "Korean": "파라스"
+  },
+  "classification": "Mushroom",
+  "height": 0.3,
+  "weight": 5.4,
+  "captureRate": 190,
+  "baseStats": {
+    "hp": 35,
+    "attack": 70,
+    "defense": 55,
+    "special": 55,
+    "speed": 25
+  },
+  "locations": {
+    "red": "Mt. Moon, Safari Zone",
+    "blue": "Mt. Moon, Safari Zone",
+    "yellow": "Mt. Moon, Safari Zone"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "scratch"
+    },
+    {
+      "level": 13,
+      "attackId": "stunspore"
+    },
+    {
+      "level": 20,
+      "attackId": "leechlife"
+    },
+    {
+      "level": 27,
+      "attackId": "spore"
+    },
+    {
+      "level": 34,
+      "attackId": "slash"
+    },
+    {
+      "level": 41,
+      "attackId": "growth"
+    }
+  ],
+  "tms": [
+    "tm03",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm20",
+    "tm21",
+    "tm22",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm40",
+    "tm44",
+    "tm50",
+    "hm01"
+  ]
+}

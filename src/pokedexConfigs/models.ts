@@ -96,7 +96,7 @@ export type PokemonEvolutionMethod =
   | "trade"
   | "thunderstone"
   | "firestone"
-  | "grassstone"
+  | "leafstone"
   | "waterstone"
   | "moonstone";
 

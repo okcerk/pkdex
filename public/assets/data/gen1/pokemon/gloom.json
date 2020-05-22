@@ -1,0 +1,95 @@
+{
+  "name": "Gloom",
+  "pokedexNumber": 44,
+  "type1": "grass",
+  "type2": "poison",
+  "evolution": [
+    {
+      "basePokemonName": "oddish",
+      "evolution1": {
+        "evolutionName": "gloom",
+        "method": 21
+      },
+      "evolution2": {
+        "evolutionName": "vileplume",
+        "method": "leafstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Kusaihana",
+    "French": "Ortide",
+    "German": "Duflor",
+    "Korean": "냄새꼬"
+  },
+  "classification": "Weed",
+  "height": 0.8,
+  "weight": 8.6,
+  "captureRate": 120,
+  "baseStats": {
+    "hp": 60,
+    "attack": 65,
+    "defense": 70,
+    "special": 85,
+    "speed": 40
+  },
+  "locations": {
+    "red": "Route 12, Route 13, Route 14, Route 15",
+    "blue": "Trade from Red, Blue (Jp.) or Yellow",
+    "yellow": "Route 12, Route 13, Route 14, Route 15, Cerulean Cave"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "absorb"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "poisonpowder"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "stunspore"
+    },
+    {
+      "level": 15,
+      "attackId": "poisonpowder"
+    },
+    {
+      "level": 17,
+      "attackId": "stunspore"
+    },
+    {
+      "level": 19,
+      "attackId": "sleeppowder"
+    },
+    {
+      "level": 28,
+      "attackId": "acid"
+    },
+    {
+      "level": 38,
+      "attackId": "petaldance"
+    },
+    {
+      "level": 52,
+      "attackId": "solarbeam"
+    }
+  ],
+  "tms": [
+    "tm03",
+    "tm06",
+    "tm09",
+    "tm10",
+    "tm20",
+    "tm21",
+    "tm22",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm44",
+    "tm50",
+    "hm01"
+  ]
+}

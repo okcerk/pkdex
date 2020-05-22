@@ -1,0 +1,87 @@
+{
+  "name": "Golbat",
+  "pokedexNumber": 42,
+  "type1": "poison",
+  "type2": "flying",
+  "evolution": [
+    {
+      "basePokemonName": "zubat",
+      "evolution1": {
+        "evolutionName": "golbat",
+        "method": 22
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Golbat",
+    "French": "Nosferalto",
+    "German": "Golbat",
+    "Korean": "골뱃"
+  },
+  "classification": "Bat",
+  "height": 1.6,
+  "weight": 55,
+  "captureRate": 90,
+  "baseStats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 70,
+    "special": 75,
+    "speed": 90
+  },
+  "locations": {
+    "red": "Cerulean Cave, Seafoam Islands, Victory Road",
+    "blue": "Cerulean Cave, Seafoam Islands, Victory Road",
+    "yellow": "Cerulean Cave, Seafoam Islands, Victory Road"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "leechlife"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "supersonic"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "bite"
+    },
+    {
+      "level": 10,
+      "attackId": "supersonic"
+    },
+    {
+      "level": 15,
+      "attackId": "bite"
+    },
+    {
+      "level": 21,
+      "attackId": "confuseray"
+    },
+    {
+      "level": 32,
+      "attackId": "wingattack"
+    },
+    {
+      "level": 43,
+      "attackId": "haze"
+    }
+  ],
+  "tms": [
+    "tm02",
+    "tm04",
+    "tm06",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm20",
+    "tm21",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm39",
+    "tm44",
+    "tm50"
+  ]
+}
