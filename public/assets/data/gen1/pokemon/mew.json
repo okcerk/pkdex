@@ -1,0 +1,106 @@
+{
+  "name": "Mew",
+  "pokedexNumber": 151,
+  "type1": "psychic",
+  "otherNames": {
+    "Japanese": "Mew",
+    "French": "Mew",
+    "German": "Mew",
+    "Korean": "뮤"
+  },
+  "classification": "New Species",
+  "height": 0.4,
+  "weight": 4,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 100,
+    "attack": 100,
+    "defense": 100,
+    "special": 100,
+    "speed": 100
+  },
+  "locations": {
+    "red": "Event Only",
+    "blue": "Event Only",
+    "yellow": "Event Only"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "pound"
+    },
+    {
+      "level": 10,
+      "attackId": "transform"
+    },
+    {
+      "level": 20,
+      "attackId": "megapunch"
+    },
+    {
+      "level": 30,
+      "attackId": "metronome"
+    },
+    {
+      "level": 40,
+      "attackId": "psychic"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm02",
+    "tm03",
+    "tm04",
+    "tm05",
+    "tm06",
+    "tm07",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm15",
+    "tm16",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm21",
+    "tm22",
+    "tm23",
+    "tm24",
+    "tm25",
+    "tm26",
+    "tm27",
+    "tm28",
+    "tm29",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm35",
+    "tm36",
+    "tm37",
+    "tm38",
+    "tm39",
+    "tm40",
+    "tm41",
+    "tm42",
+    "tm43",
+    "tm44",
+    "tm45",
+    "tm46",
+    "tm47",
+    "tm48",
+    "tm49",
+    "tm50",
+    "hm01",
+    "hm02",
+    "hm03",
+    "hm04",
+    "hm05"
+  ]
+}

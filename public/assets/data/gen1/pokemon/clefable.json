@@ -1,0 +1,90 @@
+{
+  "name": "Clefable",
+  "pokedexNumber": 36,
+  "type1": "normal",
+  "evolution": [
+    {
+      "basePokemonName": "clefairy",
+      "evolution1": {
+        "evolutionName": "clefable",
+        "method": "moonstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Pixy",
+    "French": "Mélodelfe",
+    "German": "Pixi",
+    "Korean": "픽시"
+  },
+  "classification": "Fairy",
+  "height": 1.3,
+  "weight": 40,
+  "captureRate": 25,
+  "baseStats": {
+    "hp": 95,
+    "attack": 70,
+    "defense": 73,
+    "special": 85,
+    "speed": 60
+  },
+  "locations": {
+    "red": "Mt. Moon",
+    "blue": "Mt. Moon",
+    "yellow": "Mt. Moon"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "sing"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "doubleslap"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "minimize"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "metronome"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm15",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm22",
+    "tm24",
+    "tm25",
+    "tm29",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm35",
+    "tm38",
+    "tm40",
+    "tm44",
+    "tm45",
+    "tm46",
+    "tm49",
+    "tm50",
+    "hm04",
+    "hm05"
+  ]
+}

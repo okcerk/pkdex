@@ -1,0 +1,102 @@
+{
+  "name": "Mewtwo",
+  "pokedexNumber": 150,
+  "type1": "psychic",
+  "otherNames": {
+    "Japanese": "Mewtwo",
+    "French": "Mewtwo",
+    "German": "Mewtu",
+    "Korean": "뮤츠"
+  },
+  "classification": "Genetic",
+  "height": 2,
+  "weight": 122,
+  "captureRate": 3,
+  "baseStats": {
+    "hp": 106,
+    "attack": 110,
+    "defense": 90,
+    "special": 154,
+    "speed": 130
+  },
+  "locations": {
+    "red": "Cerulean Cave",
+    "blue": "Cerulean Cave",
+    "yellow": "Cerulean Cave"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "confusion"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "disable"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "swift"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "psychic"
+    },
+    {
+      "level": 63,
+      "attackId": "barrier"
+    },
+    {
+      "level": 66,
+      "attackId": "psychic"
+    },
+    {
+      "level": 70,
+      "attackId": "recover"
+    },
+    {
+      "level": 75,
+      "attackId": "mist"
+    },
+    {
+      "level": 81,
+      "attackId": "amnesia"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm15",
+    "tm16",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm22",
+    "tm24",
+    "tm25",
+    "tm29",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm35",
+    "tm36",
+    "tm38",
+    "tm40",
+    "tm44",
+    "tm46",
+    "tm49",
+    "tm50",
+    "hm04",
+    "hm05"
+  ]
+}
