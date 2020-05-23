@@ -71,11 +71,11 @@ export const AttacksTable = (props: AttacksTableProps) => {
       <Table striped bordered hover>
         <thead>
           <tr>
-            <th scope="col">Level</th>
+            <th scope="col">Lvl</th>
             <th scope="col">Name</th>
             <th scope="col">Type</th>
             <th scope="col">PP</th>
-            <th scope="col">Power</th>
+            <th scope="col">Pow</th>
             <th scope="col">Acc</th>
             <th scope="col" className="d-none d-md-block">
               Description
