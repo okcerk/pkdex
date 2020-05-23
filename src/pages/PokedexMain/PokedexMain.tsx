@@ -1,22 +1,18 @@
 /* eslint-disable no-restricted-globals */
 import React from "react";
 import { Row } from "react-bootstrap";
-import {
-  DefaultPokedexConfig,
-  PokedexConfigMapper,
-} from "src/pokedexConfigs/configMapper";
+import { PokedexConfiguration } from "src/pokedexConfigs/models";
 import { PokemonCard } from "../../components/PokemonCard/PokemonCard";
 import { useSearchState } from "../../searchContext";
 
 interface IPokedexMainProps {
-  configName: string;
+  config: PokedexConfiguration;
 }
 
 type PokedexMainProps = Readonly<IPokedexMainProps>;
 
 export const PokedexMain = (props: PokedexMainProps) => {
-  const { configName } = props;
-  const config = PokedexConfigMapper[configName] ?? DefaultPokedexConfig;
+  const { config } = props;
   const spritesFolderUrl = config.spritesFolderUrl;
   const searchState = useSearchState();
   const currentSearchQuery = searchState.query;

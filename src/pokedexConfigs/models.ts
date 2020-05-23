@@ -7,6 +7,7 @@ export type PokemonCardModel = Readonly<{
 
 export type PokedexConfiguration = Readonly<{
   configName: string;
+  title: string;
   spritesFolderUrl: string;
   pokemonDataFolderUrl: string;
   attacksUrl: string;

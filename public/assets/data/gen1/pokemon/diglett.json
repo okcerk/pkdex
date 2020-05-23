@@ -1,0 +1,79 @@
+{
+  "name": "Diglett",
+  "pokedexNumber": 50,
+  "type1": "ground",
+  "evolution": [
+    {
+      "basePokemonName": "diglett",
+      "evolution1": {
+        "evolutionName": "dugtrio",
+        "method": 26
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Digda",
+    "French": "Taupiqueur",
+    "German": "Digda",
+    "Korean": "디그다"
+  },
+  "classification": "Mole",
+  "height": 0.2,
+  "weight": 0.8,
+  "captureRate": 255,
+  "baseStats": {
+    "hp": 10,
+    "attack": 55,
+    "defense": 25,
+    "special": 45,
+    "speed": 95
+  },
+  "locations": {
+    "red": "Diglett's Cave",
+    "blue": "Diglett's Cave",
+    "yellow": "Diglett's Cave"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "scratch"
+    },
+    {
+      "level": 15,
+      "attackId": "growl"
+    },
+    {
+      "level": 19,
+      "attackId": "dig"
+    },
+    {
+      "level": 24,
+      "attackId": "sandattack"
+    },
+    {
+      "level": 31,
+      "attackId": "slash"
+    },
+    {
+      "level": 40,
+      "attackId": "earthquake"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm20",
+    "tm26",
+    "tm27",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm44",
+    "tm48",
+    "tm50",
+    "hm01"
+  ]
+}

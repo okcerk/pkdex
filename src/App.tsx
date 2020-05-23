@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import {
   Button,
   Container,
@@ -9,10 +9,17 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { TitleComponent } from "./components/TitleComponent/TitleComponent";
 import { PokedexProps, PokemonPageProps } from "./helpers/routeHelper";
 import { PokedexMain } from "./pages/PokedexMain/PokedexMain";
-import { PokemonPage } from "./pages/PokemonPage/PokemonPage";
-import { DefaultPokedexConfigName } from "./pokedexConfigs/configMapper";
+import {
+  getFormattedPokemonName,
+  PokemonPage,
+} from "./pages/PokemonPage/PokemonPage";
+import {
+  DefaultPokedexConfig,
+  PokedexConfigMapper,
+} from "./pokedexConfigs/configMapper";
 import {
   initialSearchState,
   SearchActionType,
@@ -28,21 +35,43 @@ const styles = {
   },
 };
 
+const withTitle = (component: ReactNode, title: string) => (
+  <>
+    <TitleComponent title={title} />
+    {component}
+  </>
+);
+
 export const App = () => {
   const [searchState, searchDispatch] = React.useReducer(
     searchReducer,
     initialSearchState
   );
 
+  const getHome = () => {
+    const config = DefaultPokedexConfig;
+    const pageTitle = `Pokédex - ${config.title}`;
+    return withTitle(<PokedexMain config={config} />, pageTitle);
+  };
+
   const getPokedexComponent = ({ match }: PokedexProps) => {
     const configName = match.params.configName.toLocaleLowerCase();
-    return <PokedexMain configName={configName} />;
+    const config = PokedexConfigMapper[configName] ?? DefaultPokedexConfig;
+    const pageTitle = `Pokédex - ${config.title}`;
+    return withTitle(<PokedexMain config={config} />, pageTitle);
   };
 
   const getPokemonPage = ({ match }: PokemonPageProps) => {
     const configName = match.params.configName.toLocaleLowerCase();
     const pokemonName = match.params.pokemonName.toLocaleLowerCase();
-    return <PokemonPage configName={configName} pokemonName={pokemonName} />;
+    const config = PokedexConfigMapper[configName] ?? DefaultPokedexConfig;
+    const formattedPokemonName = getFormattedPokemonName(pokemonName);
+    const model = config.entries[formattedPokemonName];
+    const pageTitle = `${model.name} - ${config.title}`;
+    return withTitle(
+      <PokemonPage config={config} pokemonName={pokemonName} />,
+      pageTitle
+    );
   };
 
   return (
@@ -51,11 +80,11 @@ export const App = () => {
         <SearchContext.Provider value={searchState}>
           <SearchDispatchContext.Provider value={searchDispatch}>
             <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
-              <Navbar.Brand href="/">Pokedex</Navbar.Brand>
+              <Navbar.Brand href="/">Pokédex</Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                  <NavDropdown title="Game" id="collasible-nav-dropdown">
+                  <NavDropdown title="Change Game" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="/pokedex/red-blue">
                       Red & Blue
                     </NavDropdown.Item>
@@ -99,9 +128,7 @@ export const App = () => {
                   path="/pokedex/:configName"
                   render={getPokedexComponent}
                 />
-                <Route path="/">
-                  <PokedexMain configName={DefaultPokedexConfigName} />
-                </Route>
+                <Route path="/">{getHome()}</Route>
               </Switch>
             </Container>
           </SearchDispatchContext.Provider>

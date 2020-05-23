@@ -2,8 +2,7 @@ import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import useFetch from "react-fetch-hook";
 import { IconContext } from "react-icons";
-import { DefaultPokedexConfig, PokedexConfigMapper } from "src/pokedexConfigs/configMapper";
-import { PokemonModel } from "src/pokedexConfigs/models";
+import { PokedexConfiguration, PokemonModel } from "src/pokedexConfigs/models";
 import { AttacksTable } from "./AttacksTable";
 import { EvolutionFlow } from "./EvolutionFlow";
 import { StatsTable } from "./StatsTable";
@@ -17,23 +16,21 @@ const styles = {
 };
 
 interface IPokemonPageMainProps {
-  configName: string;
+  config: PokedexConfiguration;
   pokemonName: string;
 }
 
 type PokemonPageMainProps = Readonly<IPokemonPageMainProps>;
 
-const getFormattedPokemonName = (name: string) => name.toLocaleLowerCase();
+export const getFormattedPokemonName = (name: string) =>
+  name.toLocaleLowerCase();
 
 const renderSeparator = () => (
   <Row className="bg-dark" style={styles.separator} />
 );
 
 export const PokemonPage = (props: PokemonPageMainProps) => {
-  const { configName, pokemonName } = props;
-
-  // TODO: put / get (if exists) config in redux
-  const config = PokedexConfigMapper[configName] ?? DefaultPokedexConfig;
+  const { config, pokemonName } = props;
 
   const formattedPokemonName = getFormattedPokemonName(pokemonName);
   const model = config.entries[formattedPokemonName];
