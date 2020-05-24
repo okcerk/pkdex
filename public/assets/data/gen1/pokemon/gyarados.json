@@ -1,0 +1,110 @@
+{
+  "name": "Gyarados",
+  "pokedexNumber": 130,
+  "type1": "water",
+  "type2": "flying",
+  "evolution": [
+    {
+      "basePokemonName": "magikarp",
+      "evolution1": {
+        "evolutionName": "gyarados",
+        "method": 20
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Gyarados",
+    "French": "Léviator",
+    "German": "Garados",
+    "Korean": "갸라도스"
+  },
+  "classification": "Atrocious",
+  "height": 6.5,
+  "weight": 235,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 95,
+    "attack": 125,
+    "defense": 79,
+    "special": 100,
+    "speed": 81
+  },
+  "locations": {
+    "red": "Evolve Magikarp",
+    "blue": "Evolve Magikarp",
+    "yellow": "Fuchsia City"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "bite",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "dragonrage",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "leer",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "hydropump",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "tackle",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 20,
+      "attackId": "bite"
+    },
+    {
+      "level": 25,
+      "attackId": "dragonrage"
+    },
+    {
+      "level": 32,
+      "attackId": "leer"
+    },
+    {
+      "level": 41,
+      "attackId": "hydropump"
+    },
+    {
+      "level": 52,
+      "attackId": "hyperbeam"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm15",
+    "tm20",
+    "tm23",
+    "tm24",
+    "tm25",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm38",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm50",
+    "hm03",
+    "hm04"
+  ]
+}

@@ -471,7 +471,7 @@
     "power": "70",
     "accuracy": "100%"
   },
-  "hijump kick": {
+  "hijumpkick": {
     "name": "Hi Jump Kick",
     "description": "If this attack misses the target, the user receives 1 HP of damage.",
     "attackType": "fighting",
@@ -1135,9 +1135,9 @@
     "power": "60",
     "accuracy": "100%"
   },
-  "swords": {
-    "name": "Swords",
-    "description": "Dance Raises the user's Attack by 2 stages.",
+  "swordsdance": {
+    "name": "Swords Dance",
+    "description": "Raises the user's Attack by 2 stages.",
     "attackType": "normal",
     "pp": 30,
     "power": "N/A",

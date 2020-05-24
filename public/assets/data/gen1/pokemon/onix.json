@@ -1,0 +1,77 @@
+{
+  "name": "Onix",
+  "pokedexNumber": 95,
+  "type1": "rock",
+  "type2": "ground",
+  "otherNames": {
+    "Japanese": "Iwark",
+    "French": "Onix",
+    "German": "Onix",
+    "Korean": "롱스톤"
+  },
+  "classification": "Rock Snake",
+  "height": 8.8,
+  "weight": 210,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 35,
+    "attack": 45,
+    "defense": 160,
+    "special": 30,
+    "speed": 70
+  },
+  "locations": {
+    "red": "Rock Tunnel, Victory Road",
+    "blue": "Rock Tunnel, Victory Road",
+    "yellow": "Rock Tunnel, Victory Road"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "tackle"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "screech"
+    },
+    {
+      "level": 15,
+      "attackId": "bind"
+    },
+    {
+      "level": 19,
+      "attackId": "rockthrow"
+    },
+    {
+      "level": 25,
+      "attackId": "rage"
+    },
+    {
+      "level": 33,
+      "attackId": "slam"
+    },
+    {
+      "level": 43,
+      "attackId": "harden"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm20",
+    "tm26",
+    "tm27",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm36",
+    "tm44",
+    "tm47",
+    "tm48",
+    "tm50",
+    "hm04"
+  ]
+}

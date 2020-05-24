@@ -1,0 +1,97 @@
+{
+  "name": "Tangela",
+  "pokedexNumber": 114,
+  "type1": "grass",
+  "otherNames": {
+    "Japanese": "Monjara",
+    "French": "Saquedeneu",
+    "German": "Tangela",
+    "Korean": "덩쿠리"
+  },
+  "classification": "Vine",
+  "height": 1,
+  "weight": 35,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 65,
+    "attack": 55,
+    "defense": 115,
+    "special": 100,
+    "speed": 60
+  },
+  "locations": {
+    "red": "Route 21",
+    "blue": "Route 21",
+    "yellow": "Safari Zone"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "constrict"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "bind",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 27,
+      "attackId": "absorb",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 29,
+      "attackId": "absorb",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 29,
+      "attackId": "vinewhip",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 32,
+      "attackId": "poisonpowder"
+    },
+    {
+      "level": 36,
+      "attackId": "stunspore"
+    },
+    {
+      "level": 39,
+      "attackId": "sleeppowder"
+    },
+    {
+      "level": 45,
+      "attackId": "slam"
+    },
+    {
+      "level": 48,
+      "attackId": "growth",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 49,
+      "attackId": "growth",
+      "exclusiveToGames": ["red-blue"]
+    }
+  ],
+  "tms": [
+    "tm03",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm20",
+    "tm21",
+    "tm22",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm40",
+    "tm44",
+    "tm50",
+    "hm01"
+  ]
+}

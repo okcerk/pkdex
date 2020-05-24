@@ -1,0 +1,87 @@
+{
+  "name": "Electabuzz",
+  "pokedexNumber": 125,
+  "type1": "electric",
+  "otherNames": {
+    "Japanese": "Eleboo",
+    "French": "Élektek",
+    "German": "Elektek",
+    "Korean": "에레브"
+  },
+  "classification": "Electric",
+  "height": 1.1,
+  "weight": 30,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 65,
+    "attack": 83,
+    "defense": 57,
+    "special": 85,
+    "speed": 105
+  },
+  "locations": {
+    "red": "Power Plant",
+    "blue": "Trade from Red",
+    "yellow": "Trade from Red"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "quickattack"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "leer"
+    },
+    {
+      "level": 34,
+      "attackId": "thundershock"
+    },
+    {
+      "level": 37,
+      "attackId": "screech"
+    },
+    {
+      "level": 42,
+      "attackId": "thunderpunch"
+    },
+    {
+      "level": 49,
+      "attackId": "lightscreen"
+    },
+    {
+      "level": 54,
+      "attackId": "thunder"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm24",
+    "tm25",
+    "tm29",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm35",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm45",
+    "tm46",
+    "tm50",
+    "hm04",
+    "hm05"
+  ]
+}

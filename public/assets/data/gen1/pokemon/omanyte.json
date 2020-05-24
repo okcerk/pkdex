@@ -1,0 +1,77 @@
+{
+  "name": "Omanyte",
+  "pokedexNumber": 138,
+  "type1": "rock",
+  "type2": "water",
+  "evolution": [
+    {
+      "basePokemonName": "omanyte",
+      "evolution1": {
+        "evolutionName": "omastar",
+        "method": 40
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Omnite",
+    "French": "Amonita",
+    "German": "Amonitas",
+    "Korean": "암나이트"
+  },
+  "classification": "Spiral",
+  "height": 0.4,
+  "weight": 7.5,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 35,
+    "attack": 40,
+    "defense": 100,
+    "special": 90,
+    "speed": 35
+  },
+  "locations": {
+    "red": "Revive Helix Fossil in Cinnabar Island",
+    "blue": "Revive Dome Fossil in Cinnabar Island",
+    "yellow": "Revive Dome Fossil in Cinnabar Island"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "watergun"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "withdraw"
+    },
+    {
+      "level": 34,
+      "attackId": "hornattack"
+    },
+    {
+      "level": 46,
+      "attackId": "spikecannon"
+    },
+    {
+      "level": 53,
+      "attackId": "hydropump"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm20",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm44",
+    "tm50",
+    "hm03"
+  ]
+}

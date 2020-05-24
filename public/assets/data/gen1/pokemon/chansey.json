@@ -1,0 +1,110 @@
+{
+  "name": "Chansey",
+  "pokedexNumber": 113,
+  "type1": "normal",
+  "otherNames": {
+    "Japanese": "Lucky",
+    "French": "Leveinard",
+    "German": "Chaneira",
+    "Korean": "럭키"
+  },
+  "classification": "Egg",
+  "height": 1.1,
+  "weight": 34.6,
+  "captureRate": 30,
+  "baseStats": {
+    "hp": 250,
+    "attack": 5,
+    "defense": 5,
+    "special": 105,
+    "speed": 50
+  },
+  "locations": {
+    "red": "Cerulean Cave, Safari Zone",
+    "blue": "Cerulean Cave, Safari Zone",
+    "yellow": "Cerulean Cave, Safari Zone"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "pound"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "doubleslap",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "tailwhip",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 12,
+      "attackId": "doubleslap",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 24,
+      "attackId": "sing"
+    },
+    {
+      "level": 30,
+      "attackId": "growl"
+    },
+    {
+      "level": 38,
+      "attackId": "minimize"
+    },
+    {
+      "level": 44,
+      "attackId": "defensecurl"
+    },
+    {
+      "level": 48,
+      "attackId": "lightscreen"
+    },
+    {
+      "level": 54,
+      "attackId": "doubleedge"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm15",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm22",
+    "tm24",
+    "tm25",
+    "tm29",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm35",
+    "tm37",
+    "tm38",
+    "tm40",
+    "tm41",
+    "tm44",
+    "tm45",
+    "tm46",
+    "tm49",
+    "tm50",
+    "hm04",
+    "hm05"
+  ]
+}

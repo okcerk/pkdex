@@ -1,0 +1,74 @@
+{
+  "name": "Aerodactyl",
+  "pokedexNumber": 142,
+  "type1": "rock",
+  "type2": "flying",
+  "otherNames": {
+    "Japanese": "Ptera",
+    "French": "Ptéra",
+    "German": "Aerodactyl",
+    "Korean": "프테라"
+  },
+  "classification": "Fossil",
+  "height": 1.8,
+  "weight": 59,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "special": 60,
+    "speed": 130
+  },
+  "locations": {
+    "red": "Revive Old Amber in Cinnabar Island",
+    "blue": "Revive Old Amber in Cinnabar Island",
+    "yellow": "Revive Old Amber in Cinnabar Island"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "wingattack"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "agility"
+    },
+    {
+      "level": 33,
+      "attackId": "supersonic"
+    },
+    {
+      "level": 38,
+      "attackId": "bite"
+    },
+    {
+      "level": 45,
+      "attackId": "takedown"
+    },
+    {
+      "level": 54,
+      "attackId": "hyperbeam"
+    }
+  ],
+  "tms": [
+    "tm02",
+    "tm04",
+    "tm06",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm20",
+    "tm23",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm38",
+    "tm39",
+    "tm43",
+    "tm44",
+    "tm50",
+    "hm02"
+  ]
+}

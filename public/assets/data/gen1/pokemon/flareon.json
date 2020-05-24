@@ -1,0 +1,171 @@
+{
+  "name": "Eevee",
+  "pokedexNumber": 136,
+  "type1": "fire",
+  "evolution": [
+    {
+      "basePokemonName": "eevee",
+      "evolution1": {
+        "evolutionName": "vaporeon",
+        "method": "waterstone"
+      }
+    },
+    {
+      "basePokemonName": "eevee",
+      "evolution1": {
+        "evolutionName": "jolteon",
+        "method": "thunderstone"
+      }
+    },
+    {
+      "basePokemonName": "eevee",
+      "evolution1": {
+        "evolutionName": "flareon",
+        "method": "firestone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Booster",
+    "French": "Pyroli",
+    "German": "Flamara",
+    "Korean": "부스터"
+  },
+  "classification": "Flame",
+  "height": 0.9,
+  "weight": 25,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 65,
+    "attack": 130,
+    "defense": 60,
+    "special": 110,
+    "speed": 65
+  },
+  "locations": {
+    "red": "Evolve Eevee",
+    "blue": "Evolve Eevee",
+    "yellow": "Evolve Eevee"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "tackle"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "sandattack",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "tailwhip",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "quickattack"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "ember"
+    },
+    {
+      "level": 8,
+      "attackId": "sandattack",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 16,
+      "attackId": "ember",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 23,
+      "attackId": "quickattack",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 27,
+      "attackId": "quickattack",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 30,
+      "attackId": "bite",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 31,
+      "attackId": "ember",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 36,
+      "attackId": "firespin",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 37,
+      "attackId": "tailwhip",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 40,
+      "attackId": "bite",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 42,
+      "attackId": "leer",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 42,
+      "attackId": "smog",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 44,
+      "attackId": "firespin",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 47,
+      "attackId": "leer",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 48,
+      "attackId": "rage",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": 52,
+      "attackId": "flamethrower",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 54,
+      "attackId": "flamethrower",
+      "exclusiveToGames": ["red-blue"]
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm20",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm38",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm50"
+  ]
+}

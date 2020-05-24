@@ -1,0 +1,77 @@
+{
+  "name": "Kabuto",
+  "pokedexNumber": 140,
+  "type1": "rock",
+  "type2": "water",
+  "evolution": [
+    {
+      "basePokemonName": "kabuto",
+      "evolution1": {
+        "evolutionName": "kabutops",
+        "method": 40
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Kabuto",
+    "French": "Kabuto",
+    "German": "Kabuto",
+    "Korean": "투구"
+  },
+  "classification": "Shellfish",
+  "height": 0.5,
+  "weight": 11.5,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 30,
+    "attack": 80,
+    "defense": 90,
+    "special": 45,
+    "speed": 55
+  },
+  "locations": {
+    "red": "Revive Dome Fossil in Cinnabar Island",
+    "blue": "Revive Dome Fossil in Cinnabar Island",
+    "yellow": "Revive Dome Fossil in Cinnabar Island"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "scratch"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "harden"
+    },
+    {
+      "level": 34,
+      "attackId": "absorb"
+    },
+    {
+      "level": 44,
+      "attackId": "leer"
+    },
+    {
+      "level": 49,
+      "attackId": "hydropump"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm20",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm44",
+    "tm50",
+    "hm03"
+  ]
+}
