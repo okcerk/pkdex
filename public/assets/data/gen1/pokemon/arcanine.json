@@ -1,0 +1,74 @@
+{
+  "name": "Arcanine",
+  "pokedexNumber": 59,
+  "type1": "fire",
+  "evolution": [
+    {
+      "basePokemonName": "growlithe",
+      "evolution1": {
+        "evolutionName": "arcanine",
+        "method": "firestone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Windie",
+    "French": "Arcanin",
+    "German": "Arkani",
+    "Korean": "윈디"
+  },
+  "classification": "Legendary",
+  "height": 1.9,
+  "weight": 155,
+  "captureRate": 75,
+  "baseStats": {
+    "hp": 90,
+    "attack": 110,
+    "defense": 80,
+    "special": 80,
+    "speed": 95
+  },
+  "locations": {
+    "red": "Evolve Growlithe",
+    "blue": "Trade from Red, Blue (Jp.) or Yellow",
+    "yellow": "Evolve Growlithe"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "roar"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "ember"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "leer"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "takedown"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm20",
+    "tm23",
+    "tm28",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm38",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm50"
+  ]
+}

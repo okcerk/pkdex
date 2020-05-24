@@ -1,0 +1,98 @@
+{
+  "name": "Golduck",
+  "pokedexNumber": 55,
+  "type1": "water",
+  "evolution": [
+    {
+      "basePokemonName": "psyduck",
+      "evolution1": {
+        "evolutionName": "golduck",
+        "method": 33
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Golduck",
+    "French": "Akwakwak",
+    "German": "Entoron",
+    "Korean": "골덕"
+  },
+  "classification": "Duck",
+  "height": 1.7,
+  "weight": 76.6,
+  "captureRate": 75,
+  "baseStats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 78,
+    "special": 80,
+    "speed": 85
+  },
+  "locations": {
+    "red": "Seafoam Islands",
+    "blue": "Seafoam Islands",
+    "yellow": "Route 6"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "scratch"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "tailwhip"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "disable"
+    },
+    {
+      "level": 28,
+      "attackId": "tailwhip"
+    },
+    {
+      "level": 31,
+      "attackId": "disable"
+    },
+    {
+      "level": 39,
+      "attackId": "confusion"
+    },
+    {
+      "level": 48,
+      "attackId": "furyswipes"
+    },
+    {
+      "level": 59,
+      "attackId": "hydropump"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm15",
+    "tm16",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm50",
+    "tm03",
+    "hm04"
+  ]
+}

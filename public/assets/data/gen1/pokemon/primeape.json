@@ -1,0 +1,108 @@
+{
+  "name": "Primeape",
+  "pokedexNumber": 57,
+  "type1": "fight",
+  "evolution": [
+    {
+      "basePokemonName": "mankey",
+      "evolution1": {
+        "evolutionName": "primeape",
+        "method": 28
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Okorizaru",
+    "French": "Colossinge",
+    "German": "Rasaff",
+    "Korean": "성원숭"
+  },
+  "classification": "Pig Monkey",
+  "height": 1,
+  "weight": 32,
+  "captureRate": 75,
+  "baseStats": {
+    "hp": 65,
+    "attack": 105,
+    "defense": 60,
+    "special": 60,
+    "speed": 95
+  },
+  "locations": {
+    "red": "Evolve Mankey",
+    "blue": "Trade from Red or Yellow",
+    "yellow": "Route 23"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "scratch"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "leer"
+    },
+    {
+      "level": 9,
+      "attackId": "lowkick",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 15,
+      "attackId": "karatechop"
+    },
+    {
+      "level": 21,
+      "attackId": "furyswipes"
+    },
+    {
+      "level": 27,
+      "attackId": "focusenergy"
+    },
+    {
+      "level": 28,
+      "attackId": "rage",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 37,
+      "attackId": "seismictoss"
+    },
+    {
+      "level": 45,
+      "attackId": "screech",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 46,
+      "attackId": "thrash"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm16",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm24",
+    "tm25",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm35",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm48",
+    "tm50",
+    "hm04"
+  ]
+}

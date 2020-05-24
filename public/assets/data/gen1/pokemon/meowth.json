@@ -1,0 +1,85 @@
+{
+  "name": "Meowth",
+  "pokedexNumber": 52,
+  "type1": "normal",
+  "evolution": [
+    {
+      "basePokemonName": "meowth",
+      "evolution1": {
+        "evolutionName": "persian",
+        "method": 28
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Nyarth",
+    "French": "Miaouss",
+    "German": "Mauzi",
+    "Korean": "나옹"
+  },
+  "classification": "Scratch Cat",
+  "height": 0.4,
+  "weight": 4.2,
+  "captureRate": 255,
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "special": 40,
+    "speed": 90
+  },
+  "locations": {
+    "red": "Trade from Green or Blue",
+    "blue": "Route 5, Route 6, Route 7, Route 8",
+    "yellow": "Trade from Green or Blue"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "scratch"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "growl"
+    },
+    {
+      "level": 12,
+      "attackId": "bite"
+    },
+    {
+      "level": 17,
+      "attackId": "payday"
+    },
+    {
+      "level": 24,
+      "attackId": "screech"
+    },
+    {
+      "level": 33,
+      "attackId": "furyswipes"
+    },
+    {
+      "level": 44,
+      "attackId": "slash"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm16",
+    "tm20",
+    "tm24",
+    "tm25",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm50"
+  ]
+}

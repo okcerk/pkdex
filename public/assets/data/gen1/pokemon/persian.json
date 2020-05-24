@@ -1,0 +1,94 @@
+{
+  "name": "Persian",
+  "pokedexNumber": 53,
+  "type1": "normal",
+  "evolution": [
+    {
+      "basePokemonName": "meowth",
+      "evolution1": {
+        "evolutionName": "persian",
+        "method": 28
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Persian",
+    "French": "Persian",
+    "German": "Snobilikat",
+    "Korean": "페르시온"
+  },
+  "classification": "Classy Cat",
+  "height": 1,
+  "weight": 32,
+  "captureRate": 90,
+  "baseStats": {
+    "hp": 65,
+    "attack": 70,
+    "defense": 60,
+    "special": 65,
+    "speed": 115
+  },
+  "locations": {
+    "red": "Trade from Green or Blue",
+    "blue": "Evolve Meowth",
+    "yellow": "Trade from Green or Blue"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "scratch"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "growl"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "bite"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "screech"
+    },
+    {
+      "level": 12,
+      "attackId": "bite"
+    },
+    {
+      "level": 17,
+      "attackId": "payday"
+    },
+    {
+      "level": 24,
+      "attackId": "screech"
+    },
+    {
+      "level": 37,
+      "attackId": "furyswipes"
+    },
+    {
+      "level": 51,
+      "attackId": "slash"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm15",
+    "tm16",
+    "tm20",
+    "tm24",
+    "tm25",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm50"
+  ]
+}
