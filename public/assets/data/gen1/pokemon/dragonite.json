@@ -1,0 +1,107 @@
+{
+  "name": "Dragonite",
+  "pokedexNumber": 149,
+  "type1": "dragon",
+  "evolution": [
+    {
+      "basePokemonName": "dratini",
+      "evolution1": {
+        "evolutionName": "dragonair",
+        "method": 30
+      },
+      "evolution2": {
+        "evolutionName": "dragonite",
+        "method": 55
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Kairyu",
+    "French": "Dracolosse",
+    "German": "Dragoran",
+    "Korean": "망나뇽"
+  },
+  "classification": "Dragon",
+  "height": 2.2,
+  "weight": 210,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 91,
+    "attack": 134,
+    "defense": 95,
+    "special": 100,
+    "speed": 80
+  },
+  "locations": {
+    "red": "Evolve Dragonair",
+    "blue": "Evolve Dragonair",
+    "yellow": "Evolve Dragonair"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "wrap"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "leer"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "thunderwave"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "agility"
+    },
+    {
+      "level": 10,
+      "attackId": "thunderwave"
+    },
+    {
+      "level": 20,
+      "attackId": "agility"
+    },
+    {
+      "level": 35,
+      "attackId": "slam"
+    },
+    {
+      "level": 45,
+      "attackId": "dragonrage"
+    },
+    {
+      "level": 60,
+      "attackId": "hyperbeam"
+    }
+  ],
+  "tms": [
+    "tm02",
+    "tm06",
+    "tm07",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm15",
+    "tm20",
+    "tm23",
+    "tm24",
+    "tm25",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm38",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm45",
+    "tm50",
+    "hm03",
+    "hm04"
+  ]
+}

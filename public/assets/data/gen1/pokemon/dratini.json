@@ -1,0 +1,96 @@
+{
+  "name": "Dratini",
+  "pokedexNumber": 147,
+  "type1": "dragon",
+  "evolution": [
+    {
+      "basePokemonName": "dratini",
+      "evolution1": {
+        "evolutionName": "dragonair",
+        "method": 30
+      },
+      "evolution2": {
+        "evolutionName": "dragonite",
+        "method": 55
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Miniryu",
+    "French": "Minidraco",
+    "German": "Dratini",
+    "Korean": "미뇽"
+  },
+  "classification": "Dragon",
+  "height": 1.8,
+  "weight": 3.3,
+  "captureRate": 255,
+  "baseStats": {
+    "hp": 41,
+    "attack": 64,
+    "defense": 45,
+    "special": 50,
+    "speed": 56
+  },
+  "locations": {
+    "red": "Safari Zone",
+    "blue": "Safari Zone",
+    "yellow": "Safari Zone"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "wrap"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "leer"
+    },
+    {
+      "level": 10,
+      "attackId": "thunderwave"
+    },
+    {
+      "level": 20,
+      "attackId": "agility"
+    },
+    {
+      "level": 30,
+      "attackId": "slam"
+    },
+    {
+      "level": 40,
+      "attackId": "dragonrage"
+    },
+    {
+      "level": 50,
+      "attackId": "hyperbeam"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm07",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm20",
+    "tm23",
+    "tm24",
+    "tm25",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm38",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm45",
+    "tm50",
+    "hm03"
+  ]
+}

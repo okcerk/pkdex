@@ -1,0 +1,107 @@
+{
+  "name": "Poliwhirl",
+  "pokedexNumber": 61,
+  "type1": "water",
+  "evolution": [
+    {
+      "basePokemonName": "poliwag",
+      "evolution1": {
+        "evolutionName": "poliwhirl",
+        "method": 25
+      },
+      "evolution2": {
+        "evolutionName": "poliwrath",
+        "method": "waterstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Nyorozo",
+    "French": "Têtarte",
+    "German": "Quaputzi",
+    "Korean": "슈륙챙이"
+  },
+  "classification": "Tadpole",
+  "height": 1,
+  "weight": 20,
+  "captureRate": 120,
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 65,
+    "special": 50,
+    "speed": 90
+  },
+  "locations": {
+    "red": "Route 10, Celadon City",
+    "blue": "Route 10, Celadon City",
+    "yellow": "Route 22, Route 23"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "bubble"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "hypnosis"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "watergun"
+    },
+    {
+      "level": 16,
+      "attackId": "hypnosis"
+    },
+    {
+      "level": 19,
+      "attackId": "watergun"
+    },
+    {
+      "level": 26,
+      "attackId": "doubleslap"
+    },
+    {
+      "level": 33,
+      "attackId": "bodyslam"
+    },
+    {
+      "level": 41,
+      "attackId": "amnesia"
+    },
+    {
+      "level": 49,
+      "attackId": "hydropump"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm26",
+    "tm27",
+    "tm29",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm35",
+    "tm40",
+    "tm44",
+    "tm46",
+    "tm50",
+    "hm03",
+    "hm04"
+  ]
+}

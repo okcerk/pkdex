@@ -12,6 +12,7 @@ export type PokedexConfiguration = Readonly<{
   pokemonDataFolderUrl: string;
   attacksUrl: string;
   entries: Record<string, PokemonCardModel>;
+  indexByNumber: Record<number, string>;
 }>;
 
 // Pokemon models

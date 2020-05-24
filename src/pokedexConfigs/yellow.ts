@@ -8,4 +8,5 @@ export const yellow: PokedexConfiguration = {
   attacksUrl: "/assets/data/gen1/attacks.json",
   pokemonDataFolderUrl: "/assets/data/gen1/pokemon/",
   entries: redBlue.entries,
+  indexByNumber: redBlue.indexByNumber,
 };

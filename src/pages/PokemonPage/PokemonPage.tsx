@@ -5,6 +5,7 @@ import { IconContext } from "react-icons";
 import { PokedexConfiguration, PokemonModel } from "src/pokedexConfigs/models";
 import { AttacksTable } from "./AttacksTable";
 import { EvolutionFlow } from "./EvolutionFlow";
+import { PreviousNextPokemon } from "./PreviousNextPokemon";
 import { StatsTable } from "./StatsTable";
 
 const styles = {
@@ -97,6 +98,13 @@ export const PokemonPage = (props: PokemonPageMainProps) => {
           attacks={pokemonData.attacks}
           attacksUrl={config.attacksUrl}
           configName={config.configName}
+        />
+      </Row>
+      {renderSeparator()}
+      <Row className="d-flex justify-content-center py-4">
+        <PreviousNextPokemon
+          config={config}
+          currentPokemonNumber={pokemonData.pokedexNumber}
         />
       </Row>
     </IconContext.Provider>
