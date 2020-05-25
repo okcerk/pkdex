@@ -1,0 +1,80 @@
+{
+  "name": "Koffing",
+  "pokedexNumber": 109,
+  "type1": "poison",
+  "evolution": [
+    {
+      "basePokemonName": "koffing",
+      "evolution1": {
+        "evolutionName": "weezing",
+        "method": 35
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Dogars",
+    "French": "Smogo",
+    "German": "Smogon",
+    "Korean": "또가스"
+  },
+  "classification": "Poison Gas",
+  "height": 0.6,
+  "weight": 1,
+  "captureRate": 190,
+  "baseStats": {
+    "hp": 40,
+    "attack": 65,
+    "defense": 95,
+    "special": 60,
+    "speed": 35
+  },
+  "locations": {
+    "red": "Pokémon Mansion",
+    "blue": "Pokémon Mansion",
+    "yellow": "Trade from Red, Green or Blue"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "tackle"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "smog"
+    },
+    {
+      "level": 32,
+      "attackId": "sludge"
+    },
+    {
+      "level": 37,
+      "attackId": "smokescreen"
+    },
+    {
+      "level": 40,
+      "attackId": "selfdestruct"
+    },
+    {
+      "level": 45,
+      "attackId": "haze"
+    },
+    {
+      "level": 48,
+      "attackId": "explosion"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm20",
+    "tm24",
+    "tm25",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm36",
+    "tm38",
+    "tm44",
+    "tm47",
+    "tm50"
+  ]
+}

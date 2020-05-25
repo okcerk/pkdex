@@ -1,0 +1,85 @@
+{
+  "name": "Seadra",
+  "pokedexNumber": 117,
+  "type1": "water",
+  "evolution": [
+    {
+      "basePokemonName": "horsea",
+      "evolution1": {
+        "evolutionName": "seadra",
+        "method": 32
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Seadra",
+    "French": "Hypocéan",
+    "German": "Seemon",
+    "Korean": "시드라"
+  },
+  "classification": "Dragon",
+  "height": 1.2,
+  "weight": 25,
+  "captureRate": 75,
+  "baseStats": {
+    "hp": 55,
+    "attack": 65,
+    "defense": 95,
+    "special": 95,
+    "speed": 85
+  },
+  "locations": {
+    "red": "Route 23, Cerulean Cave, Seafoam Islands",
+    "blue": "Route 23, Cerulean Cave",
+    "yellow": "Route 12, Route 13"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "bubble"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "smokescreen"
+    },
+    {
+      "level": 19,
+      "attackId": "smokescreen"
+    },
+    {
+      "level": 24,
+      "attackId": "leer"
+    },
+    {
+      "level": 30,
+      "attackId": "watergun"
+    },
+    {
+      "level": 41,
+      "attackId": "agility"
+    },
+    {
+      "level": 52,
+      "attackId": "hydropump"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm15",
+    "tm20",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm50",
+    "hm03"
+  ]
+}

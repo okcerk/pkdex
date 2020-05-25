@@ -1,0 +1,89 @@
+{
+  "name": "Exeggcute",
+  "pokedexNumber": 102,
+  "type1": "grass",
+  "type2": "psychic",
+  "evolution": [
+    {
+      "basePokemonName": "exeggcute",
+      "evolution1": {
+        "evolutionName": "exeggutor",
+        "method": "leafstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Tamatama",
+    "French": "Noeunoeuf",
+    "German": "Owei",
+    "Korean": "아라리"
+  },
+  "classification": "Egg",
+  "height": 0.4,
+  "weight": 2.5,
+  "captureRate": 90,
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defense": 80,
+    "special": 60,
+    "speed": 40
+  },
+  "locations": {
+    "red": "Safari Zone",
+    "blue": "Safari Zone",
+    "yellow": "Safari Zone"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "barrage"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "hypnosis"
+    },
+    {
+      "level": 25,
+      "attackId": "reflect"
+    },
+    {
+      "level": 28,
+      "attackId": "leechseed"
+    },
+    {
+      "level": 32,
+      "attackId": "stunspore"
+    },
+    {
+      "level": 37,
+      "attackId": "poisonpowder"
+    },
+    {
+      "level": 42,
+      "attackId": "solarbeam"
+    },
+    {
+      "level": 48,
+      "attackId": "sleeppowder"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm09",
+    "tm10",
+    "tm20",
+    "tm29",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm36",
+    "tm37",
+    "tm44",
+    "tm46",
+    "tm47",
+    "tm50"
+  ]
+}

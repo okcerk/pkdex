@@ -1,0 +1,81 @@
+{
+  "name": "Cloyster",
+  "pokedexNumber": 91,
+  "type1": "water",
+  "evolution": [
+    {
+      "basePokemonName": "shellder",
+      "evolution1": {
+        "evolutionName": "cloyster",
+        "method": "waterstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Parshen",
+    "French": "Crustabri",
+    "German": "Austos",
+    "Korean": "파르셀"
+  },
+  "classification": "Bivalve",
+  "height": 1.5,
+  "weight": 132.5,
+  "captureRate": 60,
+  "baseStats": {
+    "hp": 50,
+    "attack": 95,
+    "defense": 180,
+    "special": 85,
+    "speed": 70
+  },
+  "locations": {
+    "red": "Evolve Shellder",
+    "blue": "Evolve Shellder",
+    "yellow": "Evolve Shellder"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "withdraw"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "supersonic"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "clamp"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "aurorabeam"
+    },
+    {
+      "level": 50,
+      "attackId": "spikecannon"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm15",
+    "tm20",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm36",
+    "tm39",
+    "tm44",
+    "tm47",
+    "tm49",
+    "tm50",
+    "hm03"
+  ]
+}

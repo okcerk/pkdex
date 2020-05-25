@@ -1,0 +1,80 @@
+{
+  "name": "Haunter",
+  "pokedexNumber": 93,
+  "type1": "ghost",
+  "type2": "poison",
+  "evolution": [
+    {
+      "basePokemonName": "gastly",
+      "evolution1": {
+        "evolutionName": "haunter",
+        "method": 25
+      },
+      "evolution2": {
+        "evolutionName": "gengar",
+        "method": "trade"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Ghost",
+    "French": "Spectrum",
+    "German": "Alpollo",
+    "Korean": "고우스트"
+  },
+  "classification": "Gas",
+  "height": 1.6,
+  "weight": 0.1,
+  "captureRate": 90,
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 45,
+    "special": 115,
+    "speed": 95
+  },
+  "locations": {
+    "red": "Pokémon Tower",
+    "blue": "Pokémon Tower",
+    "yellow": "Pokémon Tower"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "lick"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "confuseray"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "nightshade"
+    },
+    {
+      "level": 29,
+      "attackId": "hypnosis"
+    },
+    {
+      "level": 38,
+      "attackId": "dreameater"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm20",
+    "tm21",
+    "tm24",
+    "tm25",
+    "tm29",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm36",
+    "tm42",
+    "tm44",
+    "tm46",
+    "tm47",
+    "tm50"
+  ]
+}

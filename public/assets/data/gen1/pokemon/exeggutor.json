@@ -1,0 +1,73 @@
+{
+  "name": "Exeggutor",
+  "pokedexNumber": 103,
+  "type1": "grass",
+  "type2": "psychic",
+  "evolution": [
+    {
+      "basePokemonName": "exeggcute",
+      "evolution1": {
+        "evolutionName": "exeggutor",
+        "method": "leafstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Nassy",
+    "French": "Noadkoko",
+    "German": "Kokowei",
+    "Korean": "나시"
+  },
+  "classification": "Coconut",
+  "height": 2,
+  "weight": 120,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 85,
+    "special": 125,
+    "speed": 55
+  },
+  "locations": {
+    "red": "Evolve Exeggcute",
+    "blue": "Evolve Exeggcute",
+    "yellow": "Evolve Exeggcute"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "barrage"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "hypnosis"
+    },
+    {
+      "level": 28,
+      "attackId": "stomp"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm20",
+    "tm21",
+    "tm22",
+    "tm29",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm36",
+    "tm37",
+    "tm44",
+    "tm46",
+    "tm47",
+    "tm50",
+    "hm04"
+  ]
+}
