@@ -22,7 +22,7 @@ export const PokemonCard = (props: PokemonCardProps) => {
     >
       <Card.Img
         variant="top"
-        src={`${process.env.PUBLIC_URL}${spritesFolderUrl}${model.spriteUrl}`}
+        src={`${spritesFolderUrl}${model.spriteUrl}`}
         className="px-3 py-3"
         style={styles.image}
       />

@@ -87,7 +87,6 @@ const renderArrow = (method: PokemonEvolutionMethod) => {
 
 export const EvolutionFlow = (props: EvolutionFlowProps) => {
   const { evolution, config } = props;
-  const spriteBaseFolder = `${process.env.PUBLIC_URL}${config.spritesFolderUrl}`;
 
   const basePokemonModel = config.entries[evolution.basePokemonName];
 
@@ -100,14 +99,14 @@ export const EvolutionFlow = (props: EvolutionFlowProps) => {
   return (
     <>
       {renderImage(
-        spriteBaseFolder,
+        config.spritesFolderUrl,
         basePokemonModel.spriteUrl,
         evolution.basePokemonName,
         config.configName
       )}
       {renderArrow(evolution.evolution1.method)}
       {renderImage(
-        spriteBaseFolder,
+        config.spritesFolderUrl,
         evolution1Model.spriteUrl,
         evolution1Model.name,
         config.configName
@@ -116,7 +115,7 @@ export const EvolutionFlow = (props: EvolutionFlowProps) => {
         <>
           {renderArrow(evolution.evolution2.method)}
           {renderImage(
-            spriteBaseFolder,
+            config.spritesFolderUrl,
             evolution2Model.spriteUrl,
             evolution2Model.name,
             config.configName

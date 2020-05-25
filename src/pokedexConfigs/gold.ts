@@ -4,7 +4,7 @@ import { redBlue } from "./redBlue";
 export const gold: PokedexConfiguration = {
   configName: "gold",
   title: "Pokémon Gold",
-  spritesFolderUrl: "/assets/sprites/gold/",
+  spritesFolderUrl: "https://pkdex.blob.core.windows.net/pkdex-assets/gold/",
   attacksUrl: "/assets/data/gen1/attacks.json",
   pokemonDataFolderUrl: "/assets/data/gen2/pokemon/",
   entries: {

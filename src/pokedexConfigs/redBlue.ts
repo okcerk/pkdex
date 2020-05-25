@@ -3,7 +3,8 @@ import { PokedexConfiguration } from "./models";
 export const redBlue: PokedexConfiguration = {
   configName: "red-blue",
   title: "Pokémon Red & Blue",
-  spritesFolderUrl: "/assets/sprites/red-blue/",
+  spritesFolderUrl:
+    "https://pkdex.blob.core.windows.net/pkdex-assets/red-blue/",
   attacksUrl: "/assets/data/gen1/attacks.json",
   pokemonDataFolderUrl: "/assets/data/gen1/pokemon/",
   entries: {

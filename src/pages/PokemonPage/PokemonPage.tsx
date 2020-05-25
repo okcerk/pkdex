@@ -37,8 +37,7 @@ export const PokemonPage = (props: PokemonPageMainProps) => {
   const formattedPokemonName = getFormattedPokemonName(pokemonName);
   const model = config.entries[formattedPokemonName];
 
-  const spriteBaseFolder = `${process.env.PUBLIC_URL}${config.spritesFolderUrl}`;
-  const spriteUrl = `${spriteBaseFolder}${model.spriteUrl}`;
+  const spriteUrl = `${config.spritesFolderUrl}${model.spriteUrl}`;
 
   // eslint-disable-next-line no-restricted-globals
   const dataUrl = `${process.env.PUBLIC_URL}${config.pokemonDataFolderUrl}${formattedPokemonName}.json`;
