@@ -113,6 +113,8 @@ export type PokemonEvolutionDisplayGroup = Readonly<{
   evolution2?: PokemonEvolution;
 }>;
 
+export type PokemonLocations = Readonly<{ [game: string]: string }>;
+
 export type PokemonModel = Readonly<{
   name: string;
   pokedexNumber: number;
@@ -125,7 +127,7 @@ export type PokemonModel = Readonly<{
   weight: number; // in kg
   captureRate: number;
   baseStats: PokemonStats;
-  locations: { [game: string]: string };
+  locations: PokemonLocations;
   attacks: PokemonAttack[];
   tms?: string[]; // i.e: "tm01" "hm02"
 }>;

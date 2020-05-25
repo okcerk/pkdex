@@ -5,6 +5,7 @@ import { IconContext } from "react-icons";
 import { PokedexConfiguration, PokemonModel } from "src/pokedexConfigs/models";
 import { AttacksTable } from "./AttacksTable";
 import { EvolutionFlow } from "./EvolutionFlow";
+import { Locations } from "./Locations";
 import { PreviousNextPokemon } from "./PreviousNextPokemon";
 import { StatsTable } from "./StatsTable";
 
@@ -88,6 +89,10 @@ export const PokemonPage = (props: PokemonPageMainProps) => {
           ))}
         </>
       )}
+      {renderSeparator()}
+      <Row className="d-flex justify-content-center py-4">
+        <Locations locations={pokemonData.locations} />
+      </Row>
       {renderSeparator()}
       <Row className="d-flex justify-content-center py-4">
         <StatsTable stats={pokemonData.baseStats} />
