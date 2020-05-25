@@ -1,0 +1,99 @@
+{
+  "name": "Machoke",
+  "pokedexNumber": 67,
+  "type1": "fight",
+  "evolution": [
+    {
+      "basePokemonName": "machop",
+      "evolution1": {
+        "evolutionName": "machoke",
+        "method": 28
+      },
+      "evolution2": {
+        "evolutionName": "machamp",
+        "method": "trade"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Goriky",
+    "French": "Machopeur",
+    "German": "Maschock",
+    "Korean": "근육몬"
+  },
+  "classification": "Superpower",
+  "height": 1.5,
+  "weight": 70.5,
+  "captureRate": 90,
+  "baseStats": {
+    "hp": 80,
+    "attack": 100,
+    "defense": 70,
+    "special": 50,
+    "speed": 45
+  },
+  "locations": {
+    "red": "Victory Road",
+    "blue": "Victory Road",
+    "yellow": "Victory Road"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "karatechop"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "lowkick"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "leer"
+    },
+    {
+      "level": 20,
+      "attackId": "lowkick"
+    },
+    {
+      "level": 25,
+      "attackId": "leer"
+    },
+    {
+      "level": 36,
+      "attackId": "focusenergy"
+    },
+    {
+      "level": 44,
+      "attackId": "seismictoss"
+    },
+    {
+      "level": 52,
+      "attackId": "submission"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm26",
+    "tm27",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm35",
+    "tm38",
+    "tm40",
+    "tm44",
+    "tm48",
+    "tm50",
+    "hm04"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Machamp",
+  "pokedexNumber": 68,
+  "type1": "fight",
+  "evolution": [
+    {
+      "basePokemonName": "machop",
+      "evolution1": {
+        "evolutionName": "machoke",
+        "method": 28
+      },
+      "evolution2": {
+        "evolutionName": "machamp",
+        "method": "trade"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Kairiky",
+    "French": "Mackogneur",
+    "German": "Machomei",
+    "Korean": "괴력몬"
+  },
+  "classification": "Superpower",
+  "height": 1.6,
+  "weight": 130,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 90,
+    "attack": 130,
+    "defense": 80,
+    "special": 65,
+    "speed": 55
+  },
+  "locations": {
+    "red": "Evolve Machoke",
+    "blue": "Evolve Machoke",
+    "yellow": "Evolve Machoke"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "karatechop"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "lowkick"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "leer"
+    },
+    {
+      "level": 20,
+      "attackId": "lowkick"
+    },
+    {
+      "level": 25,
+      "attackId": "leer"
+    },
+    {
+      "level": 36,
+      "attackId": "focusenergy"
+    },
+    {
+      "level": 44,
+      "attackId": "seismictoss"
+    },
+    {
+      "level": 52,
+      "attackId": "submission"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm26",
+    "tm27",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm35",
+    "tm38",
+    "tm40",
+    "tm44",
+    "tm48",
+    "tm50",
+    "hm04"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Victreebel",
+  "pokedexNumber": 71,
+  "type1": "grass",
+  "type2": "poison",
+  "evolution": [
+    {
+      "basePokemonName": "bellsprout",
+      "evolution1": {
+        "evolutionName": "weepinbell",
+        "method": 21
+      },
+      "evolution2": {
+        "evolutionName": "victreebel",
+        "method": "leafstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Utsubot",
+    "French": "Empiflor",
+    "German": "Sarzenia",
+    "Korean": "우츠보트"
+  },
+  "classification": "Flycatcher",
+  "height": 1.7,
+  "weight": 15.5,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "special": 100,
+    "speed": 70
+  },
+  "locations": {
+    "red": "Trade from Green, Blue (US) or Yellow",
+    "blue": "Evolve Weepinbell",
+    "yellow": "Evolve Weepinbell"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "sleeppowder"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "stunspore"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "acid"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "razorleaf"
+    },
+    {
+      "level": 13,
+      "attackId": "wrap"
+    },
+    {
+      "level": 15,
+      "attackId": "poisonpowder"
+    },
+    {
+      "level": 18,
+      "attackId": "sleeppowder"
+    }
+  ],
+  "tms": [
+    "tm03",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm20",
+    "tm21",
+    "tm22",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm44",
+    "tm50",
+    "hm01"
+  ]
+}

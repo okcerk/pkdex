@@ -1,0 +1,117 @@
+{
+  "name": "Slowbro",
+  "pokedexNumber": 80,
+  "type1": "water",
+  "type2": "psychic",
+  "evolution": [
+    {
+      "basePokemonName": "slowpoke",
+      "evolution1": {
+        "evolutionName": "slowbro",
+        "method": 37
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Yadoran",
+    "French": "Flagadoss",
+    "German": "Lahmus",
+    "Korean": "야도란"
+  },
+  "classification": "Hermit Crab",
+  "height": 1.6,
+  "weight": 78.5,
+  "captureRate": 75,
+  "baseStats": {
+    "hp": 95,
+    "attack": 75,
+    "defense": 110,
+    "special": 80,
+    "speed": 30
+  },
+  "locations": {
+    "red": "Route 23, Cerulean Cave, Seafoam Islands",
+    "blue": "Route 23, Cerulean Cave, Seafoam Islands",
+    "yellow": "Route 12, Route 13, Seafoam Islands"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "confusion"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "disable"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "headbutt"
+    },
+    {
+      "level": 18,
+      "attackId": "disable"
+    },
+    {
+      "level": 22,
+      "attackId": "headbutt"
+    },
+    {
+      "level": 27,
+      "attackId": "growl"
+    },
+    {
+      "level": 33,
+      "attackId": "watergun"
+    },
+    {
+      "level": 37,
+      "attackId": "withdraw"
+    },
+    {
+      "level": 44,
+      "attackId": "amnesia"
+    },
+    {
+      "level": 55,
+      "attackId": "psychic"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm15",
+    "tm16",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm26",
+    "tm27",
+    "tm28",
+    "tm29",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm38",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm45",
+    "tm46",
+    "tm49",
+    "tm50",
+    "hm03",
+    "hm04",
+    "hm05"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Magnemite",
+  "pokedexNumber": 81,
+  "type1": "electric",
+  "evolution": [
+    {
+      "basePokemonName": "magnemite",
+      "evolution1": {
+        "evolutionName": "magneton",
+        "method": 30
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Coil",
+    "French": "Magnéti",
+    "German": "Magnetilo",
+    "Korean": "코일"
+  },
+  "classification": "Magnet",
+  "height": 0.3,
+  "weight": 6,
+  "captureRate": 190,
+  "baseStats": {
+    "hp": 25,
+    "attack": 35,
+    "defense": 70,
+    "special": 95,
+    "speed": 45
+  },
+  "locations": {
+    "red": "Power Plant",
+    "blue": "Power Plant",
+    "yellow": "Route 10, Power Plant"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "tackle"
+    },
+    {
+      "level": 21,
+      "attackId": "sonicboom"
+    },
+    {
+      "level": 25,
+      "attackId": "thundershock"
+    },
+    {
+      "level": 29,
+      "attackId": "supersonic"
+    },
+    {
+      "level": 35,
+      "attackId": "thunderwave"
+    },
+    {
+      "level": 41,
+      "attackId": "swift"
+    },
+    {
+      "level": 47,
+      "attackId": "screech"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm09",
+    "tm10",
+    "tm20",
+    "tm24",
+    "tm25",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm39",
+    "tm44",
+    "tm45",
+    "tm50",
+    "hm05"
+  ]
+}

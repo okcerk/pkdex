@@ -1,0 +1,93 @@
+{
+  "name": "Magneton",
+  "pokedexNumber": 82,
+  "type1": "electric",
+  "evolution": [
+    {
+      "basePokemonName": "magnemite",
+      "evolution1": {
+        "evolutionName": "magneton",
+        "method": 30
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Rarecoil",
+    "French": "Magnéton",
+    "German": "Magneton",
+    "Korean": "레어코일"
+  },
+  "classification": "Magnet",
+  "height": 1,
+  "weight": 60,
+  "captureRate": 60,
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defense": 95,
+    "special": 120,
+    "speed": 70
+  },
+  "locations": {
+    "red": "Cerulean Cave, Power Plant",
+    "blue": "Cerulean Cave, Power Plant",
+    "yellow": "Power Plant"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "tackle"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "sonicboom"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "thundershock"
+    },
+    {
+      "level": 21,
+      "attackId": "sonicboom"
+    },
+    {
+      "level": 25,
+      "attackId": "thundershock"
+    },
+    {
+      "level": 29,
+      "attackId": "supersonic"
+    },
+    {
+      "level": 38,
+      "attackId": "thunderwave"
+    },
+    {
+      "level": 46,
+      "attackId": "swift"
+    },
+    {
+      "level": 54,
+      "attackId": "screech"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm20",
+    "tm24",
+    "tm25",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm39",
+    "tm44",
+    "tm45",
+    "tm50",
+    "hm05"
+  ]
+}

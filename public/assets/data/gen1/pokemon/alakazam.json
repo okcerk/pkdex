@@ -1,0 +1,112 @@
+{
+  "name": "Alakazam",
+  "pokedexNumber": 65,
+  "type1": "psychic",
+  "evolution": [
+    {
+      "basePokemonName": "abra",
+      "evolution1": {
+        "evolutionName": "kadabra",
+        "method": 16
+      },
+      "evolution2": {
+        "evolutionName": "alakazam",
+        "method": "trade"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Foodin",
+    "French": "Alakazam",
+    "German": "Simsala",
+    "Korean": "후딘"
+  },
+  "classification": "Psi",
+  "height": 1.5,
+  "weight": 48,
+  "captureRate": 50,
+  "baseStats": {
+    "hp": 55,
+    "attack": 50,
+    "defense": 45,
+    "special": 135,
+    "speed": 120
+  },
+  "locations": {
+    "red": "Evolve Kadabra",
+    "blue": "Evolve Kadabra",
+    "yellow": "Evolve Kadabra"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "teleport"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "confusion",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "disable",
+      "exclusiveToGames": ["red-blue"]
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "kinesis",
+      "exclusiveToGames": ["yellow"]
+    },
+    {
+      "level": 16,
+      "attackId": "confusion"
+    },
+    {
+      "level": 20,
+      "attackId": "disable"
+    },
+    {
+      "level": 27,
+      "attackId": "psybeam"
+    },
+    {
+      "level": 31,
+      "attackId": "recover"
+    },
+    {
+      "level": 38,
+      "attackId": "psychic"
+    },
+    {
+      "level": 42,
+      "attackId": "reflect"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm28",
+    "tm29",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm35",
+    "tm40",
+    "tm44",
+    "tm45",
+    "tm46",
+    "tm49",
+    "tm50",
+    "hm05"
+  ]
+}

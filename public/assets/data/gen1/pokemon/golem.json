@@ -1,0 +1,102 @@
+{
+  "name": "Golem",
+  "pokedexNumber": 76,
+  "type1": "rock",
+  "type2": "ground",
+  "evolution": [
+    {
+      "basePokemonName": "geodude",
+      "evolution1": {
+        "evolutionName": "graveler",
+        "method": 25
+      },
+      "evolution2": {
+        "evolutionName": "golem",
+        "method": "trade"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Golonya",
+    "French": "Grolem",
+    "German": "Geowaz",
+    "Korean": "딱구리"
+  },
+  "classification": "Megaton",
+  "height": 1.4,
+  "weight": 300,
+  "captureRate": 45,
+  "baseStats": {
+    "hp": 80,
+    "attack": 110,
+    "defense": 130,
+    "special": 55,
+    "speed": 45
+  },
+  "locations": {
+    "red": "Evolve Graveler",
+    "blue": "Evolve Graveler",
+    "yellow": "Evolve Graveler"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "tackle"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "defensecurl"
+    },
+    {
+      "level": 11,
+      "attackId": "defensecurl"
+    },
+    {
+      "level": 16,
+      "attackId": "rockthrow"
+    },
+    {
+      "level": 21,
+      "attackId": "selfdestruct"
+    },
+    {
+      "level": 29,
+      "attackId": "harden"
+    },
+    {
+      "level": 36,
+      "attackId": "earthquake"
+    },
+    {
+      "level": 43,
+      "attackId": "explosion"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm15",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm26",
+    "tm27",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm35",
+    "tm36",
+    "tm38",
+    "tm44",
+    "tm47",
+    "tm48",
+    "tm50",
+    "hm04"
+  ]
+}

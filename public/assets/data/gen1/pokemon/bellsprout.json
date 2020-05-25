@@ -1,0 +1,95 @@
+{
+  "name": "Bellsprout",
+  "pokedexNumber": 69,
+  "type1": "grass",
+  "type2": "poison",
+  "evolution": [
+    {
+      "basePokemonName": "bellsprout",
+      "evolution1": {
+        "evolutionName": "weepinbell",
+        "method": 21
+      },
+      "evolution2": {
+        "evolutionName": "victreebel",
+        "method": "leafstone"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Madatsubomi",
+    "French": "Chétiflor",
+    "German": "Knofensa",
+    "Korean": "모다피"
+  },
+  "classification": "Flower",
+  "height": 0.7,
+  "weight": 4,
+  "captureRate": 255,
+  "baseStats": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 35,
+    "special": 70,
+    "speed": 40
+  },
+  "locations": {
+    "red": "Trade from Green, Blue (US) or Yellow",
+    "blue": "Route 5, Route 6, Route 7, Route 12, Route 13, Route 14, Route 15, Route 24, Route 25",
+    "yellow": "Route 12, Route 13, Route 14, Route 15, Route 24, Route 25"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "vinewhip"
+    },
+    {
+      "level": "baseAttack",
+      "attackId": "growth"
+    },
+    {
+      "level": 13,
+      "attackId": "wrap"
+    },
+    {
+      "level": 15,
+      "attackId": "poisonpowder"
+    },
+    {
+      "level": 18,
+      "attackId": "sleeppowder"
+    },
+    {
+      "level": 21,
+      "attackId": "stunspore"
+    },
+    {
+      "level": 26,
+      "attackId": "acid"
+    },
+    {
+      "level": 33,
+      "attackId": "razorleaf"
+    },
+    {
+      "level": 42,
+      "attackId": "slam"
+    }
+  ],
+  "tms": [
+    "tm03",
+    "tm06",
+    "tm09",
+    "tm10",
+    "tm20",
+    "tm21",
+    "tm22",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm44",
+    "tm50",
+    "hm01"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Slowpoke",
+  "pokedexNumber": 79,
+  "type1": "water",
+  "type2": "psychic",
+  "evolution": [
+    {
+      "basePokemonName": "slowpoke",
+      "evolution1": {
+        "evolutionName": "slowbro",
+        "method": 37
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Yadon",
+    "French": "Ramoloss",
+    "German": "Flegmon",
+    "Korean": "야돈"
+  },
+  "classification": "Dopey",
+  "height": 1.2,
+  "weight": 36,
+  "captureRate": 190,
+  "baseStats": {
+    "hp": 90,
+    "attack": 65,
+    "defense": 65,
+    "special": 40,
+    "speed": 15
+  },
+  "locations": {
+    "red": "Route 10, Celadon City, Safari Zone, Seafoam Islands",
+    "blue": "Route 10, Celadon City, Safari Zone, Seafoam Islands",
+    "yellow": "Route 12, Route 13, Seafoam Islands"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "confusion"
+    },
+    {
+      "level": 18,
+      "attackId": "disable"
+    },
+    {
+      "level": 22,
+      "attackId": "headbutt"
+    },
+    {
+      "level": 27,
+      "attackId": "growl"
+    },
+    {
+      "level": 33,
+      "attackId": "watergun"
+    },
+    {
+      "level": 40,
+      "attackId": "amnesia"
+    },
+    {
+      "level": 48,
+      "attackId": "psychic"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm16",
+    "tm20",
+    "tm26",
+    "tm27",
+    "tm28",
+    "tm29",
+    "tm30",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm38",
+    "tm39",
+    "tm40",
+    "tm44",
+    "tm45",
+    "tm46",
+    "tm49",
+    "tm50",
+    "hm03",
+    "hm04",
+    "hm05"
+  ]
+}

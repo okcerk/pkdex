@@ -1,0 +1,83 @@
+{
+  "name": "Seel",
+  "pokedexNumber": 86,
+  "type1": "water",
+  "evolution": [
+    {
+      "basePokemonName": "seel",
+      "evolution1": {
+        "evolutionName": "dewgong",
+        "method": 34
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Pawou",
+    "French": "Otaria",
+    "German": "Jurob",
+    "Korean": "쥬쥬"
+  },
+  "classification": "Sea Lion",
+  "height": 1.1,
+  "weight": 90,
+  "captureRate": 190,
+  "baseStats": {
+    "hp": 65,
+    "attack": 45,
+    "defense": 55,
+    "special": 70,
+    "speed": 45
+  },
+  "locations": {
+    "red": "Seafoam Islands",
+    "blue": "Seafoam Islands",
+    "yellow": "Seafoam Islands"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "headbutt"
+    },
+    {
+      "level": 30,
+      "attackId": "growl"
+    },
+    {
+      "level": 35,
+      "attackId": "aurorabeam"
+    },
+    {
+      "level": 40,
+      "attackId": "rest"
+    },
+    {
+      "level": 45,
+      "attackId": "takedown"
+    },
+    {
+      "level": 50,
+      "attackId": "icebeam"
+    }
+  ],
+  "tms": [
+    "tm06",
+    "tm07",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm11",
+    "tm12",
+    "tm13",
+    "tm14",
+    "tm16",
+    "tm20",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm40",
+    "tm44",
+    "tm50",
+    "hm03",
+    "hm04"
+  ]
+}

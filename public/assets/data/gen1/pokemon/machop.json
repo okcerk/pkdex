@@ -1,0 +1,91 @@
+{
+  "name": "Machop",
+  "pokedexNumber": 66,
+  "type1": "fight",
+  "evolution": [
+    {
+      "basePokemonName": "machop",
+      "evolution1": {
+        "evolutionName": "machoke",
+        "method": 28
+      },
+      "evolution2": {
+        "evolutionName": "machamp",
+        "method": "trade"
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Wanriky",
+    "French": "Machoc",
+    "German": "Machollo",
+    "Korean": "알통몬"
+  },
+  "classification": "Superpower",
+  "height": 0.8,
+  "weight": 19.5,
+  "captureRate": 180,
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 50,
+    "special": 35,
+    "speed": 35
+  },
+  "locations": {
+    "red": "Rock Tunnel, Victory Road",
+    "blue": "Rock Tunnel, Victory Road",
+    "yellow": "Route 10, Rock Tunnel"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "karatechop"
+    },
+    {
+      "level": 20,
+      "attackId": "lowkick"
+    },
+    {
+      "level": 25,
+      "attackId": "leer"
+    },
+    {
+      "level": 32,
+      "attackId": "focusenergy"
+    },
+    {
+      "level": 39,
+      "attackId": "seismictoss"
+    },
+    {
+      "level": 46,
+      "attackId": "submission"
+    }
+  ],
+  "tms": [
+    "tm01",
+    "tm05",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm17",
+    "tm18",
+    "tm19",
+    "tm20",
+    "tm26",
+    "tm27",
+    "tm28",
+    "tm31",
+    "tm32",
+    "tm34",
+    "tm35",
+    "tm38",
+    "tm40",
+    "tm44",
+    "tm48",
+    "tm50",
+    "hm04"
+  ]
+}

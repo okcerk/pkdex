@@ -1,0 +1,84 @@
+{
+  "name": "Doduo",
+  "pokedexNumber": 84,
+  "type1": "normal",
+  "type2": "flying",
+  "evolution": [
+    {
+      "basePokemonName": "doduo",
+      "evolution1": {
+        "evolutionName": "dodrio",
+        "method": 31
+      }
+    }
+  ],
+  "otherNames": {
+    "Japanese": "Dodo",
+    "French": "Doduo",
+    "German": "Dodu",
+    "Korean": "두두"
+  },
+  "classification": "Twin Bird",
+  "height": 1.4,
+  "weight": 39.2,
+  "captureRate": 190,
+  "baseStats": {
+    "hp": 35,
+    "attack": 85,
+    "defense": 45,
+    "special": 35,
+    "speed": 75
+  },
+  "locations": {
+    "red": "Route 16, Route 17, Route 18, Safari Zone",
+    "blue": "Route 16, Route 17, Route 18, Safari Zone",
+    "yellow": "Route 16, Route 17, Route 18"
+  },
+  "attacks": [
+    {
+      "level": "baseAttack",
+      "attackId": "peck"
+    },
+    {
+      "level": 20,
+      "attackId": "growl"
+    },
+    {
+      "level": 24,
+      "attackId": "furyattack"
+    },
+    {
+      "level": 30,
+      "attackId": "drillpeck"
+    },
+    {
+      "level": 36,
+      "attackId": "rage"
+    },
+    {
+      "level": 40,
+      "attackId": "triattack"
+    },
+    {
+      "level": 44,
+      "attackId": "agility"
+    }
+  ],
+  "tms": [
+    "tm04",
+    "tm06",
+    "tm08",
+    "tm09",
+    "tm10",
+    "tm20",
+    "tm31",
+    "tm32",
+    "tm33",
+    "tm34",
+    "tm40",
+    "tm43",
+    "tm44",
+    "tm50",
+    "hm02"
+  ]
+}
