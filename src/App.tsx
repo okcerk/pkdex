@@ -91,6 +91,9 @@ export const App = () => {
                     <NavDropdown.Item href="/pokedex/yellow">
                       Yellow
                     </NavDropdown.Item>
+                    <NavDropdown.Item href="/pokedex/gold-silver">
+                      Gold & Silver
+                    </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link href="/about">About</Nav.Link>
                 </Nav>

@@ -40,7 +40,7 @@ export const PokemonPage = (props: PokemonPageMainProps) => {
   const spriteUrl = `${config.spritesFolderUrl}${model.spriteUrl}`;
 
   // eslint-disable-next-line no-restricted-globals
-  const dataUrl = `${process.env.PUBLIC_URL}${config.pokemonDataFolderUrl}${formattedPokemonName}.json`;
+  const dataUrl = `${config.pokemonDataFolderUrl}${formattedPokemonName}.json`;
   const { isLoading, data } = useFetch(dataUrl);
 
   if (isLoading) {

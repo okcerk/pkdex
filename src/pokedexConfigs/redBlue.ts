@@ -5,8 +5,10 @@ export const redBlue: PokedexConfiguration = {
   title: "Pokémon Red & Blue",
   spritesFolderUrl:
     "https://pkdex.blob.core.windows.net/pkdex-assets/red-blue/",
-  attacksUrl: "/assets/data/gen1/attacks.json",
-  pokemonDataFolderUrl: "/assets/data/gen1/pokemon/",
+  attacksUrl:
+    "https://pkdex.blob.core.windows.net/pkdex-assets/data/gen1/attacks.json",
+  pokemonDataFolderUrl:
+    "https://pkdex.blob.core.windows.net/pkdex-assets/data/gen1/pokemon/",
   entries: {
     bulbasaur: { name: "Bulbasaur", pokedexNumber: 1, spriteUrl: "1.png" },
     ivysaur: { name: "Ivysaur", pokedexNumber: 2, spriteUrl: "2.png" },
